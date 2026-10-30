@@ -1,0 +1,3332 @@
+{
+ "lidoEm": "2026-10-30T20:51:58.442Z",
+ "bfConfere": true,
+ "tabelas": {
+  "1 - TABELA MAXIMA (NOVA)": [
+   [
+    "(ALLERGAN) BOTOX - RETOQUE 1 - COM CUSTO",
+    "TOXINA",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "(ALLERGAN) BOTOX - TOXINA BOTULÍNICA 3 REGIÕES",
+    "TOXINA",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "(ALLERGAN) BOTOX - TOXINA BOTULÍNICA 4 REGIÕES",
+    "TOXINA",
+    "R$ 1.529,00",
+    "R$ 989,00"
+   ],
+   [
+    "(ALLERGAN) BOTOX - TOXINA BOTULÍNICA CÓDIGO DE BARRAS",
+    "TOXINA",
+    "R$ 319,00",
+    "R$ 223,00"
+   ],
+   [
+    "(ALLERGAN) BOTOX - TOXINA BOTULÍNICA GATINHO",
+    "TOXINA",
+    "R$ 319,00",
+    "R$ 223,00"
+   ],
+   [
+    "(ALLERGAN) BOTOX - TOXINA BOTULÍNICA GLABELA",
+    "TOXINA",
+    "R$ 539,00",
+    "R$ 377,00"
+   ],
+   [
+    "(ALLERGAN) BOTOX - TOXINA BOTULÍNICA GLOBAL",
+    "TOXINA",
+    "R$ 1.749,00",
+    "R$ 1.224,00"
+   ],
+   [
+    "(ALLERGAN) BOTOX - TOXINA BOTULÍNICA NARIZ",
+    "TOXINA",
+    "R$ 319,00",
+    "R$ 223,00"
+   ],
+   [
+    "(ALLERGAN) BOTOX - TOXINA BOTULÍNICA NEFERTITE",
+    "TOXINA",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "(ALLERGAN) BOTOX - TOXINA BOTULÍNICA OLHOS",
+    "TOXINA",
+    "R$ 649,00",
+    "R$ 454,00"
+   ],
+   [
+    "(ALLERGAN) BOTOX - TOXINA BOTULÍNICA QUEIXO CELULÍTICO",
+    "TOXINA",
+    "R$ 319,00",
+    "R$ 223,00"
+   ],
+   [
+    "(ALLERGAN) BOTOX - TOXINA BOTULÍNICA SORRISO GENGIVAL/SORRISO TRISTE",
+    "TOXINA",
+    "R$ 319,00",
+    "R$ 223,00"
+   ],
+   [
+    "(ALLERGAN) BOTOX - TOXINA BOTULÍNICA SUDORESEBOTOX - TOXINA BOTULÍNICA SUDORESE",
+    "TOXINA",
+    "R$ 1.749,00",
+    "R$ 1.224,00"
+   ],
+   [
+    "(ALLERGAN) BOTOX - TOXINA BOTULÍNICA TESTA",
+    "TOXINA",
+    "R$ 539,00",
+    "R$ 377,00"
+   ],
+   [
+    "AMABELLA - EXOSSOMOS",
+    "MICROAGULHAMENTO",
+    "R$ 1.199,00",
+    "R$ 544,50"
+   ],
+   [
+    "AMABELLA PDRN - FACIAL",
+    "MICROAGULHAMENTO",
+    "R$ 1.309,00",
+    "R$ 539,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 01 FIO - MATRIX CONTOUR",
+    "FIOS",
+    "R$ 1.030,00",
+    "R$ 465,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 01 FIO - REVERSE COG",
+    "FIOS",
+    "R$ 347,00",
+    "R$ 173,50"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 02 FIO - MATRIX CONTOUR",
+    "FIOS",
+    "R$ 2.060,00",
+    "R$ 930,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 02 FIO - REVERSE COG",
+    "FIOS",
+    "R$ 694,00",
+    "R$ 247,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 03 FIO - MATRIX CONTOUR",
+    "FIOS",
+    "R$ 3.090,00",
+    "R$ 1.395,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 03 FIO - REVERSE COG",
+    "FIOS",
+    "R$ 1.041,00",
+    "R$ 370,50"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 04 FIO - MATRIX CONTOUR",
+    "FIOS",
+    "R$ 4.120,00",
+    "R$ 1.860,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 04 FIO - REVERSE COG",
+    "FIOS",
+    "R$ 1.388,00",
+    "R$ 494,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 05 FIO - MATRIX CONTOUR",
+    "FIOS",
+    "R$ 5.150,00",
+    "R$ 2.325,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 05 FIO - REVERSE COG",
+    "FIOS",
+    "R$ 1.735,00",
+    "R$ 617,50"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 06 FIO - MATRIX CONTOUR",
+    "FIOS",
+    "R$ 6.180,00",
+    "R$ 2.790,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 06 FIO - REVERSE COG",
+    "FIOS",
+    "R$ 2.082,00",
+    "R$ 741,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 07 FIO - MATRIX CONTOUR",
+    "FIOS",
+    "R$ 7.210,00",
+    "R$ 3.255,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 07 FIO - REVERSE COG",
+    "FIOS",
+    "R$ 2.429,00",
+    "R$ 864,50"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 08 FIO - MATRIX CONTOUR",
+    "FIOS",
+    "R$ 8.240,00",
+    "R$ 3.720,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 08 FIO - REVERSE COG",
+    "FIOS",
+    "R$ 2.776,00",
+    "R$ 988,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 09 FIO - MATRIX CONTOUR",
+    "FIOS",
+    "R$ 9.270,00",
+    "R$ 4.185,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 09 FIO - REVERSE COG",
+    "FIOS",
+    "R$ 3.123,00",
+    "R$ 1.111,50"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 10 FIO - MATRIX CONTOUR",
+    "FIOS",
+    "R$ 10.300,00",
+    "R$ 4.650,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 10 FIO - REVERSE COG",
+    "FIOS",
+    "R$ 3.470,00",
+    "R$ 1.235,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 11 FIO - MATRIX CONTOUR",
+    "FIOS",
+    "R$ 11.330,00",
+    "R$ 5.115,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 11 FIO - REVERSE COG",
+    "FIOS",
+    "R$ 3.817,00",
+    "R$ 1.358,50"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 12 FIO - MATRIX CONTOUR",
+    "FIOS",
+    "R$ 12.360,00",
+    "R$ 5.580,00"
+   ],
+   [
+    "APLICAÇÃO DE FIO DE PDO - 12 FIO - REVERSE COG",
+    "FIOS",
+    "R$ 4.164,00",
+    "R$ 1.482,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 01 Fio GARRA",
+    "FIOS",
+    "R$ 434,50",
+    "R$ 212,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 01 Fio MOLDADO",
+    "FIOS",
+    "R$ 979,00",
+    "R$ 434,50"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 01 Fio MONO",
+    "FIOS",
+    "R$ 176,00",
+    "R$ 82,50"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 01 Fio MULTI-FILL",
+    "FIOS",
+    "R$ 539,00",
+    "R$ 231,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 02 Fio GARRA",
+    "FIOS",
+    "R$ 869,00",
+    "R$ 423,50"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 02 Fio MOLDADO",
+    "FIOS",
+    "R$ 1.958,00",
+    "R$ 869,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 02 Fio MONO",
+    "FIOS",
+    "R$ 352,00",
+    "R$ 165,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 02 Fio MULTI-FILL",
+    "FIOS",
+    "R$ 1.078,00",
+    "R$ 462,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 03 Fio GARRA",
+    "FIOS",
+    "R$ 1.303,50",
+    "R$ 635,50"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 03 Fio MOLDADO",
+    "FIOS",
+    "R$ 2.937,00",
+    "R$ 1.303,50"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 03 Fio MONO",
+    "FIOS",
+    "R$ 528,00",
+    "R$ 247,50"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 03 Fio MULTI-FILL",
+    "FIOS",
+    "R$ 1.617,00",
+    "R$ 693,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 04 Fio GARRA",
+    "FIOS",
+    "R$ 1.738,00",
+    "R$ 847,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 04 Fio MOLDADO",
+    "FIOS",
+    "R$ 3.916,00",
+    "R$ 1.738,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 04 Fio MONO",
+    "FIOS",
+    "R$ 704,00",
+    "R$ 330,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 04 Fio MULTI-FILL",
+    "FIOS",
+    "R$ 2.156,00",
+    "R$ 924,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 05 Fio GARRA",
+    "FIOS",
+    "R$ 2.172,50",
+    "R$ 1.059,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 05 Fio MOLDADO",
+    "FIOS",
+    "R$ 4.895,00",
+    "R$ 2.172,50"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 05 Fio MONO",
+    "FIOS",
+    "R$ 880,00",
+    "R$ 412,50"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 05 Fio MULTI-FILL",
+    "FIOS",
+    "R$ 2.695,00",
+    "R$ 1.155,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 06 Fio GARRA",
+    "FIOS",
+    "R$ 2.607,00",
+    "R$ 1.270,50"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 06 Fio MOLDADO",
+    "FIOS",
+    "R$ 5.874,00",
+    "R$ 2.607,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 06 Fio MONO",
+    "FIOS",
+    "R$ 1.056,00",
+    "R$ 495,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 06 Fio MULTI-FILL",
+    "FIOS",
+    "R$ 3.234,00",
+    "R$ 1.386,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 07 Fio GARRA",
+    "FIOS",
+    "R$ 3.041,50",
+    "R$ 1.482,50"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 07 Fio MOLDADO",
+    "FIOS",
+    "R$ 6.853,00",
+    "R$ 3.041,50"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 07 Fio MONO",
+    "FIOS",
+    "R$ 1.232,00",
+    "R$ 577,50"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 07 Fio MULTI-FILL",
+    "FIOS",
+    "R$ 3.773,00",
+    "R$ 1.617,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 08 Fio GARRA",
+    "FIOS",
+    "R$ 3.476,00",
+    "R$ 1.694,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 08 Fio MOLDADO",
+    "FIOS",
+    "R$ 7.832,00",
+    "R$ 3.476,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 08 Fio MONO",
+    "FIOS",
+    "R$ 1.408,00",
+    "R$ 660,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 08 Fio MULTI-FILL",
+    "FIOS",
+    "R$ 4.312,00",
+    "R$ 1.848,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 09 Fio GARRA",
+    "FIOS",
+    "R$ 3.910,50",
+    "R$ 1.906,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 09 Fio MOLDADO",
+    "FIOS",
+    "R$ 8.811,00",
+    "R$ 3.910,50"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 09 Fio MONO",
+    "FIOS",
+    "R$ 1.584,00",
+    "R$ 742,50"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 09 Fio MULTI-FILL",
+    "FIOS",
+    "R$ 4.851,00",
+    "R$ 2.079,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 10 Fio GARRA",
+    "FIOS",
+    "R$ 4.345,00",
+    "R$ 2.117,50"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 10 Fio MOLDADO",
+    "FIOS",
+    "R$ 9.790,00",
+    "R$ 4.345,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 10 Fio MONO",
+    "FIOS",
+    "R$ 1.760,00",
+    "R$ 825,00"
+   ],
+   [
+    "Aplicação de fio de PLA/CL - 10 Fio MULTI-FILL",
+    "FIOS",
+    "R$ 5.390,00",
+    "R$ 2.310,00"
+   ],
+   [
+    "APLICAÇÃO DE TOXINA BOTULÍNICA (LIGHT ATÉ 35 UNIDADES)",
+    "TOXINA",
+    "R$ 759,00",
+    "R$ 531,00"
+   ],
+   [
+    "APLICAÇÃO ENZIMA BCAA",
+    "ENZIMA CORPORAL",
+    "R$ 308,00",
+    "R$ 137,50"
+   ],
+   [
+    "APLICAÇÃO ENZIMA DE EMAGRECIMENTO",
+    "ENZIMA CORPORAL",
+    "R$ 308,00",
+    "R$ 137,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 01 FIO COM GARRA",
+    "FIOS",
+    "R$ 341,00",
+    "R$ 153,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 01 FIO FILLER/MULTI-FILL",
+    "FIOS",
+    "R$ 759,00",
+    "R$ 341,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 01 FIO LISO/MONO",
+    "FIOS",
+    "R$ 165,00",
+    "R$ 74,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 01 FIO MATRIX/CAVERN",
+    "FIOS",
+    "R$ 1.089,00",
+    "R$ 490,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 01 FIO PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 231,00",
+    "R$ 104,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 01 FIO REGIÃO DOS OLHOS",
+    "FIOS",
+    "R$ 231,00",
+    "R$ 104,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 01 FIO SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 979,00",
+    "R$ 440,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 02 FIOS COM GARRA",
+    "FIOS",
+    "R$ 682,00",
+    "R$ 307,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 02 FIOS FILLER/MULTI-FILL",
+    "FIOS",
+    "R$ 1.518,00",
+    "R$ 683,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 02 FIOS LISO/MONO",
+    "FIOS",
+    "R$ 330,00",
+    "R$ 148,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 02 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 2.178,00",
+    "R$ 980,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 02 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 462,00",
+    "R$ 208,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 02 FIOS REGIÃO DOS OLHOS",
+    "FIOS",
+    "R$ 462,00",
+    "R$ 208,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 02 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 1.958,00",
+    "R$ 881,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 03 FIOS COM GARRA",
+    "FIOS",
+    "R$ 1.023,00",
+    "R$ 460,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 03 FIOS FILLER/MULTI-FILL",
+    "FIOS",
+    "R$ 2.277,00",
+    "R$ 1.024,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 03 FIOS LISO/MONO",
+    "FIOS",
+    "R$ 495,00",
+    "R$ 223,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 03 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 3.267,00",
+    "R$ 1.470,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 03 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 693,00",
+    "R$ 312,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 03 FIOS REGIÃO DOS OLHOS",
+    "FIOS",
+    "R$ 693,00",
+    "R$ 312,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 03 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 2.937,00",
+    "R$ 1.321,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 04 FIOS COM GARRA",
+    "FIOS",
+    "R$ 1.364,00",
+    "R$ 614,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 04 FIOS FILLER/MULTI-FILL",
+    "FIOS",
+    "R$ 3.036,00",
+    "R$ 1.366,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 04 FIOS LISO/MONO",
+    "FIOS",
+    "R$ 660,00",
+    "R$ 297,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 04 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 4.356,00",
+    "R$ 1.960,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 04 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 924,00",
+    "R$ 416,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 04 FIOS REGIÃO DOS OLHOS",
+    "FIOS",
+    "R$ 924,00",
+    "R$ 416,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 04 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 3.916,00",
+    "R$ 1.762,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 05 FIOS COM GARRA",
+    "FIOS",
+    "R$ 1.705,00",
+    "R$ 767,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 05 FIOS FILLER/MULTI-FILL",
+    "FIOS",
+    "R$ 3.795,00",
+    "R$ 1.708,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 05 FIOS LISO/MONO",
+    "FIOS",
+    "R$ 825,00",
+    "R$ 371,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 05 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 5.445,00",
+    "R$ 2.450,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 05 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 1.155,00",
+    "R$ 520,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 05 FIOS REGIÃO DOS OLHOS",
+    "FIOS",
+    "R$ 1.155,00",
+    "R$ 520,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 05 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 4.895,00",
+    "R$ 2.203,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 06 FIOS COM GARRA",
+    "FIOS",
+    "R$ 2.046,00",
+    "R$ 920,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 06 FIOS FILLER/MULTI-FILL",
+    "FIOS",
+    "R$ 4.554,00",
+    "R$ 2.049,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 06 FIOS LISO/MONO",
+    "FIOS",
+    "R$ 990,00",
+    "R$ 445,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 06 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 6.534,00",
+    "R$ 2.940,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 06 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 1.386,00",
+    "R$ 623,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 06 FIOS REGIÃO DOS OLHOS",
+    "FIOS",
+    "R$ 1.386,00",
+    "R$ 623,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 06 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 5.874,00",
+    "R$ 2.643,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 07 FIOS COM GARRA",
+    "FIOS",
+    "R$ 2.387,00",
+    "R$ 1.074,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 07 FIOS FILLER/MULTI-FILL",
+    "FIOS",
+    "R$ 5.313,00",
+    "R$ 2.391,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 07 FIOS LISO/MONO",
+    "FIOS",
+    "R$ 1.155,00",
+    "R$ 520,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 07 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 7.623,00",
+    "R$ 3.430,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 07 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 1.617,00",
+    "R$ 727,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 07 FIOS REGIÃO DOS OLHOS",
+    "FIOS",
+    "R$ 1.617,00",
+    "R$ 727,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 07 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 6.853,00",
+    "R$ 3.084,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 08 FIOS COM GARRA",
+    "FIOS",
+    "R$ 2.728,00",
+    "R$ 1.227,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 08 FIOS FILLER/MULTI-FILL",
+    "FIOS",
+    "R$ 6.072,00",
+    "R$ 2.732,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 08 FIOS LISO/MONO",
+    "FIOS",
+    "R$ 1.320,00",
+    "R$ 594,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 08 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 8.712,00",
+    "R$ 3.920,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 08 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 1.848,00",
+    "R$ 831,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 08 FIOS REGIÃO DOS OLHOS",
+    "FIOS",
+    "R$ 1.848,00",
+    "R$ 831,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 08 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 7.832,00",
+    "R$ 3.524,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 09 FIOS COM GARRA",
+    "FIOS",
+    "R$ 3.069,00",
+    "R$ 1.381,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 09 FIOS FILLER/MULTI-FILL",
+    "FIOS",
+    "R$ 6.831,00",
+    "R$ 3.074,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 09 FIOS LISO/MONO",
+    "FIOS",
+    "R$ 1.485,00",
+    "R$ 668,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 09 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 9.801,00",
+    "R$ 4.410,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 09 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 2.079,00",
+    "R$ 935,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 09 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 8.811,00",
+    "R$ 3.965,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 10 FIOS COM GARRA",
+    "FIOS",
+    "R$ 3.410,00",
+    "R$ 1.534,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 10 FIOS FILLER/MULTI-FILL",
+    "FIOS",
+    "R$ 7.590,00",
+    "R$ 3.415,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 10 FIOS LISO/MONO",
+    "FIOS",
+    "R$ 1.650,00",
+    "R$ 742,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 10 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 10.890,00",
+    "R$ 4.900,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 10 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 2.310,00",
+    "R$ 1.039,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 10 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 9.790,00",
+    "R$ 4.405,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 11 FIOS COM GARRA",
+    "FIOS",
+    "R$ 3.751,00",
+    "R$ 1.688,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 11 FIOS FILLER/MULTI-FILL",
+    "AVALIAÇÃO",
+    "R$ 8.349,00",
+    "R$ 3.757,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 11 FIOS LISO/MONO",
+    "FIOS",
+    "R$ 1.815,00",
+    "R$ 817,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 11 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 11.979,00",
+    "R$ 5.390,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 11 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 2.541,00",
+    "R$ 1.143,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 11 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 10.769,00",
+    "R$ 4.846,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 12 FIOS COM GARRA",
+    "FIOS",
+    "R$ 4.092,00",
+    "R$ 1.841,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 12 FIOS FILLER/MULTI-FILL",
+    "FIOS",
+    "R$ 9.108,00",
+    "R$ 4.098,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 12 FIOS LISO/MONO",
+    "FIOS",
+    "R$ 1.980,00",
+    "R$ 891,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 12 FIOS MATRIX/CAVERN",
+    "AVALIAÇÃO",
+    "R$ 13.068,00",
+    "R$ 5.880,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 12 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 2.772,00",
+    "R$ 1.247,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 12 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 11.748,00",
+    "R$ 5.286,50"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO COM GARRA ARQUEAMENTO DE SOBRANCELHAS",
+    "FIOS",
+    "R$ 1.419,00",
+    "R$ 638,50"
+   ],
+   [
+    "APLICAÇÃO MÁSCARA FACIAL DE OURO",
+    "OUTROS",
+    "R$ 88,00",
+    "R$ 44,00"
+   ],
+   [
+    "AVALIAÇÃO",
+    "AVALIAÇÃO",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "BELOTERO PREENCHIMENTO BIGODE CHINÊS (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.208,90",
+    "R$ 714,00"
+   ],
+   [
+    "BELOTERO PREENCHIMENTO CÓDIGO DE BARRAS (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.208,90",
+    "R$ 714,00"
+   ],
+   [
+    "BELOTERO PREENCHIMENTO LABIAL - Intense (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.208,90",
+    "R$ 715,00"
+   ],
+   [
+    "BELOTERO PREENCHIMENTO MALAR (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.529,00",
+    "R$ 824,00"
+   ],
+   [
+    "BELOTERO PREENCHIMENTO MANDIBULA (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.529,00",
+    "R$ 824,00"
+   ],
+   [
+    "BELOTERO PREENCHIMENTO MANDIBULA (2ML)",
+    "PREENCHEDOR",
+    "R$ 2.629,00",
+    "R$ 1.759,00"
+   ],
+   [
+    "BELOTERO PREENCHIMENTO MARIONETE (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.208,90",
+    "R$ 714,00"
+   ],
+   [
+    "BELOTERO PREENCHIMENTO OLHEIRAS (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.208,90",
+    "R$ 714,00"
+   ],
+   [
+    "BELOTERO PREENCHIMENTO QUEIXO (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.529,00",
+    "R$ 824,00"
+   ],
+   [
+    "BELOTERO PREENCHIMENTO TEMPORA (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.529,00",
+    "R$ 824,00"
+   ],
+   [
+    "BOTOX PRIME - FASE 1 - MICROAGULHAMENTO",
+    "TOXINA",
+    "R$ 374,00",
+    "R$ 330,00"
+   ],
+   [
+    "BOTOX PRIME - FASE 3 - INTRAMUSCULAR",
+    "TOXINA",
+    "R$ 374,00",
+    "R$ 330,00"
+   ],
+   [
+    "CARBOXITERAPIA",
+    "EQUIPAMENTOS",
+    "R$ 110,00",
+    "R$ 55,00"
+   ],
+   [
+    "CC BLOCK",
+    "OUTROS",
+    "R$ 88,00",
+    "R$ 44,00"
+   ],
+   [
+    "CELULITE",
+    "ENZIMA CORPORAL",
+    "R$ 308,00",
+    "R$ 137,50"
+   ],
+   [
+    "CICATRIZ ACNE PREMIUM ROYAL FACE (10mL)",
+    "ENZIMA FACIAL",
+    "R$ 528,00",
+    "R$ 109,50"
+   ],
+   [
+    "CORRENTE RUSSA",
+    "EQUIPAMENTOS",
+    "R$ 220,00",
+    "R$ 99,00"
+   ],
+   [
+    "DMAE",
+    "ENZIMA FACIAL",
+    "R$ 121,00",
+    "R$ 55,00"
+   ],
+   [
+    "DRENAGEM LINFÁTICA",
+    "MASSAGEM",
+    "R$ 187,00",
+    "R$ 82,50"
+   ],
+   [
+    "DYSPORT - TOXINA BOTULÍNICA 3 REGIÕES",
+    "TOXINA",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "DYSPORT - TOXINA BOTULÍNICA 4 REGIÕES",
+    "TOXINA",
+    "R$ 1.529,00",
+    "R$ 989,00"
+   ],
+   [
+    "DYSPORT - TOXINA BOTULÍNICA CÓDIGO DE BARRAS",
+    "TOXINA",
+    "R$ 319,00",
+    "R$ 223,00"
+   ],
+   [
+    "DYSPORT - TOXINA BOTULÍNICA GATINHO",
+    "TOXINA",
+    "R$ 319,00",
+    "R$ 223,00"
+   ],
+   [
+    "DYSPORT - TOXINA BOTULÍNICA GLABELA",
+    "TOXINA",
+    "R$ 539,00",
+    "R$ 377,00"
+   ],
+   [
+    "DYSPORT - TOXINA BOTULÍNICA GLOBAL",
+    "TOXINA",
+    "R$ 1.749,00",
+    "R$ 1.224,00"
+   ],
+   [
+    "DYSPORT - TOXINA BOTULÍNICA NARIZ",
+    "TOXINA",
+    "R$ 319,00",
+    "R$ 223,00"
+   ],
+   [
+    "DYSPORT - TOXINA BOTULÍNICA NEFERTITE",
+    "TOXINA",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "DYSPORT - TOXINA BOTULÍNICA OLHOS",
+    "TOXINA",
+    "R$ 649,00",
+    "R$ 454,00"
+   ],
+   [
+    "DYSPORT - TOXINA BOTULÍNICA QUEIXO CELULÍTICO",
+    "TOXINA",
+    "R$ 319,00",
+    "R$ 223,00"
+   ],
+   [
+    "DYSPORT - TOXINA BOTULÍNICA SORRISO GENGIVAL/SORRISO TRISTE",
+    "TOXINA",
+    "R$ 319,00",
+    "R$ 223,00"
+   ],
+   [
+    "DYSPORT - TOXINA BOTULÍNICA SUDORESE",
+    "TOXINA",
+    "R$ 1.749,00",
+    "R$ 1.224,00"
+   ],
+   [
+    "DYSPORT - TOXINA BOTULÍNICA TESTA",
+    "TOXINA",
+    "R$ 539,00",
+    "R$ 377,00"
+   ],
+   [
+    "ELEGANCE (PROTOCOLO CELULITE)",
+    "ENZIMA CORPORAL",
+    "R$ 242,00",
+    "R$ 99,00"
+   ],
+   [
+    "ELLEVA - BIOESTIMULADOR FACIAL",
+    "BIOESTIMULADOR",
+    "R$ 3.069,00",
+    "R$ 2.199,00"
+   ],
+   [
+    "ELLEVA - FACE (210MG)",
+    "BIOESTIMULADOR",
+    "R$ 3.949,00",
+    "R$ 3.289,00"
+   ],
+   [
+    "ELLEVA – BIOESTIMULADOR (150mg)",
+    "BIOESTIMULADOR",
+    "R$ 2.288,00",
+    "R$ 1.830,00"
+   ],
+   [
+    "ELLEVA X - BIOESTIMULADOR (630mg)",
+    "BIOESTIMULADOR",
+    "R$ 7.469,00",
+    "R$ 7.029,00"
+   ],
+   [
+    "ENZIMA CAPILAR",
+    "ENZIMA CAPILAR",
+    "R$ 308,00",
+    "R$ 137,50"
+   ],
+   [
+    "ENZIMA PARA FLACIDEZ FACIAL",
+    "ENZIMA FACIAL",
+    "R$ 308,00",
+    "R$ 137,50"
+   ],
+   [
+    "ESTRIA",
+    "ENZIMA CORPORAL",
+    "R$ 308,00",
+    "R$ 137,50"
+   ],
+   [
+    "EVO - PREENCHIMENTO DE GLUTEO 10ml",
+    "PREENCHEDOR",
+    "R$ 3.850,00",
+    "R$ 3.080,00"
+   ],
+   [
+    "EVO - PREENCHIMENTO DE GLUTEO 20ml",
+    "PREENCHEDOR",
+    "R$ 6.050,00",
+    "R$ 5.280,00"
+   ],
+   [
+    "EVO - PREENCHIMENTO DE GLUTEO 30ml",
+    "PREENCHEDOR",
+    "R$ 8.294,00",
+    "R$ 7.898,00"
+   ],
+   [
+    "EVO - PREENCHIMENTO DE GLUTEO 40ml",
+    "PREENCHEDOR",
+    "R$ 10.868,00",
+    "R$ 10.428,00"
+   ],
+   [
+    "EVO - PREENCHIMENTO DE GLUTEO 50ml",
+    "PREENCHEDOR",
+    "R$ 13.321,00",
+    "R$ 13.079,00"
+   ],
+   [
+    "EVO - PREENCHIMENTO DE GLUTEO 60ml",
+    "PREENCHEDOR",
+    "R$ 16.258,00",
+    "R$ 15.609,00"
+   ],
+   [
+    "EVO - PREENCHIMENTO DE GLUTEO 70ml",
+    "PREENCHEDOR",
+    "R$ 18.623,00",
+    "R$ 18.073,00"
+   ],
+   [
+    "EVO - PREENCHIMENTO DE GLUTEO 80ml",
+    "PREENCHEDOR",
+    "R$ 21.142,00",
+    "R$ 20.889,00"
+   ],
+   [
+    "FEET BLOCK",
+    "OUTROS",
+    "R$ 88,00",
+    "R$ 44,00"
+   ],
+   [
+    "FIO FILLER VOLUME 20",
+    "FIOS",
+    "R$ 1.015,79",
+    "R$ 408,13"
+   ],
+   [
+    "FLACIDEZ CORPORAL",
+    "OUTROS",
+    "R$ 308,00",
+    "R$ 137,50"
+   ],
+   [
+    "FOX EYES COM BOTOX",
+    "FIOS/ TOXINA",
+    "R$ 2.739,00",
+    "R$ 1.232,50"
+   ],
+   [
+    "FOX EYES COM DYSPORT",
+    "FIOS/ TOXINA",
+    "R$ 2.739,00",
+    "R$ 1.232,50"
+   ],
+   [
+    "FOX EYES COM XEOMIN",
+    "FIOS/ TOXINA",
+    "R$ 2.739,00",
+    "R$ 1.232,50"
+   ],
+   [
+    "GHK-CU - Peptídeo de Cobre - LaCutanee",
+    "ROYAL THERAPY",
+    "R$ 770,00",
+    "R$ 275,00"
+   ],
+   [
+    "GORDURA LOCALIZADA",
+    "ENZIMA CORPORAL",
+    "R$ 308,00",
+    "R$ 137,50"
+   ],
+   [
+    "HARMONYCA - BIOESTIMULADOR E PREENCHEDOR",
+    "BIOESTIMULADOR",
+    "R$ 3.839,00",
+    "R$ 3.289,00"
+   ],
+   [
+    "JET SKIN",
+    "EQUIPAMENTOS",
+    "R$ 440,00",
+    "R$ 192,50"
+   ],
+   [
+    "JUVEDERM PREENCHIMENTO BIGODE CHINES (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "JUVEDERM PREENCHIMENTO CÓDIGO DE BARRAS (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "JUVEDERM PREENCHIMENTO LABIAL (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "JUVEDERM PREENCHIMENTO MALAR (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.529,00",
+    "R$ 989,00"
+   ],
+   [
+    "JUVEDERM PREENCHIMENTO MANDIBULA (2ML)",
+    "PREENCHEDOR",
+    "R$ 2.629,00",
+    "R$ 1.840,00"
+   ],
+   [
+    "JUVEDERM PREENCHIMENTO MARIONETE (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "JUVEDERM PREENCHIMENTO OLHEIRAS (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "JUVEDERM PREENCHIMENTO QUEIXO (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.529,00",
+    "R$ 989,00"
+   ],
+   [
+    "JUVEDERM VOLITE (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "JUVEDERM VOLUMA PREENCHIMENTO MALAR E FOSSA (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.529,00",
+    "R$ 989,00"
+   ],
+   [
+    "JUVEDERM VOLUMA PREENCHIMENTO MANDIBULA (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.529,00",
+    "R$ 989,00"
+   ],
+   [
+    "JUVEDERM VOLUMA PREENCHIMENTO TEMPORA (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.529,00",
+    "R$ 989,00"
+   ],
+   [
+    "LED LASER",
+    "EQUIPAMENTOS",
+    "R$ 110,00",
+    "R$ 49,50"
+   ],
+   [
+    "LIMPEZA DE PELE PROFUNDA",
+    "EQUIPAMENTOS",
+    "R$ 187,00",
+    "R$ 82,50"
+   ],
+   [
+    "LIPO DE PAPADA",
+    "ENZIMA FACIAL",
+    "R$ 308,00",
+    "R$ 137,50"
+   ],
+   [
+    "MASSAGEM MODELADORA",
+    "MASSAGEM",
+    "R$ 121,00",
+    "R$ 55,00"
+   ],
+   [
+    "MASSAGEM RELAXANTE",
+    "MASSAGEM",
+    "R$ 121,00",
+    "R$ 55,00"
+   ],
+   [
+    "MICROAGULHAMENTO",
+    "MICROAGULHAMENTO",
+    "R$ 352,00",
+    "R$ 159,50"
+   ],
+   [
+    "MICROAGULHAMENTO EXOSSOMOS - CICA",
+    "MICROAGULHAMENTO",
+    "R$ 748,00",
+    "R$ 319,00"
+   ],
+   [
+    "MICROAGULHAMENTO EXOSSOMOS - PERSEA AMERICANA",
+    "MICROAGULHAMENTO",
+    "R$ 495,00",
+    "R$ 192,50"
+   ],
+   [
+    "MICROAGULHAMENTO EXOSSOMOS - VIGNA RADIATA",
+    "MICROAGULHAMENTO",
+    "R$ 495,00",
+    "R$ 192,50"
+   ],
+   [
+    "MICROAGULHAMENTO PDRN - CLAREADOR DE PELE",
+    "MICROAGULHAMENTO",
+    "R$ 858,00",
+    "R$ 374,00"
+   ],
+   [
+    "MICROAGULHAMENTO PDRN - CLAREADOR E REGENERADOR",
+    "MICROAGULHAMENTO",
+    "R$ 968,00",
+    "R$ 429,00"
+   ],
+   [
+    "MICROAGULHAMENTO PDRN – REGENERADOR CELULAR",
+    "MICROAGULHAMENTO",
+    "R$ 968,00",
+    "R$ 429,00"
+   ],
+   [
+    "NANO LIFT",
+    "MICROAGULHAMENTO",
+    "R$ 1.593,90",
+    "R$ 467,00"
+   ],
+   [
+    "NCT-BIO - Biorevitalizador - LaCutanee",
+    "ROYAL THERAPY",
+    "R$ 394,00",
+    "R$ 141,00"
+   ],
+   [
+    "PEELING ACIDO GLICOLICO 30%",
+    "PEELING",
+    "R$ 220,00",
+    "R$ 88,00"
+   ],
+   [
+    "PEELING COMBINADO PARA AXILAS",
+    "PEELING",
+    "R$ 374,00",
+    "R$ 165,00"
+   ],
+   [
+    "PEELING COMBINADO PARA FACE E MÃOS",
+    "PEELING",
+    "R$ 374,00",
+    "R$ 165,00"
+   ],
+   [
+    "PEELING DE CÍMEL",
+    "PEELING",
+    "R$ 220,00",
+    "R$ 88,00"
+   ],
+   [
+    "PEELING DE DIAMANTE",
+    "PEELING",
+    "R$ 110,00",
+    "R$ 49,50"
+   ],
+   [
+    "PEELING MANDÉLICO",
+    "PEELING",
+    "R$ 220,00",
+    "R$ 88,00"
+   ],
+   [
+    "PEELING RETINÓICO",
+    "PEELING",
+    "R$ 220,00",
+    "R$ 88,00"
+   ],
+   [
+    "PEELING SALICILICO",
+    "PEELING",
+    "R$ 220,00",
+    "R$ 88,00"
+   ],
+   [
+    "PEELING SOLUÇÃO JESSNER 1",
+    "PEELING",
+    "R$ 220,00",
+    "R$ 88,00"
+   ],
+   [
+    "PEELING SOLUÇÃO JESSNER 2",
+    "PEELING",
+    "R$ 220,00",
+    "R$ 88,00"
+   ],
+   [
+    "PEELING TCA",
+    "PEELING",
+    "R$ 550,00",
+    "R$ 219,50"
+   ],
+   [
+    "PEELING TIOGLICOLICO",
+    "PEELING",
+    "R$ 220,00",
+    "R$ 88,00"
+   ],
+   [
+    "PEIM",
+    "ENZIMA CORPORAL",
+    "R$ 220,00",
+    "R$ 99,00"
+   ],
+   [
+    "PHD - CELULITE",
+    "ENZIMA CORPORAL",
+    "R$ 198,00",
+    "R$ 88,00"
+   ],
+   [
+    "PHD - ESTRIAS BRANCAS",
+    "ENZIMA CORPORAL",
+    "R$ 209,00",
+    "R$ 88,00"
+   ],
+   [
+    "PHD - ESTRIAS VERMELHAS",
+    "ENZIMA CORPORAL",
+    "R$ 198,00",
+    "R$ 82,50"
+   ],
+   [
+    "PHD - FLACIDEZ",
+    "ENZIMA CORPORAL",
+    "R$ 253,00",
+    "R$ 110,00"
+   ],
+   [
+    "PHD - GLUTEO MAX",
+    "ENZIMA CORPORAL",
+    "R$ 572,00",
+    "R$ 231,00"
+   ],
+   [
+    "PHD - GORDURA LOCALIZADA",
+    "ENZIMA CORPORAL",
+    "R$ 308,00",
+    "R$ 126,50"
+   ],
+   [
+    "PHD - PAPADA",
+    "ENZIMA FACIAL",
+    "R$ 264,00",
+    "R$ 110,00"
+   ],
+   [
+    "PHD - PUMP GLÚTEO",
+    "ENZIMA CORPORAL",
+    "R$ 1.857,90",
+    "R$ 874,00"
+   ],
+   [
+    "PHD - REDUTOR DE BARRIGA E QUADRIL",
+    "ENZIMA CORPORAL",
+    "R$ 253,00",
+    "R$ 104,50"
+   ],
+   [
+    "PHD - REDUTOR DE CULOTE",
+    "ENZIMA CORPORAL",
+    "R$ 198,00",
+    "R$ 77,00"
+   ],
+   [
+    "PHD - SKINBOOSTER",
+    "ROYALSKIN",
+    "R$ 641,30",
+    "R$ 265,50"
+   ],
+   [
+    "PN - Bioregenerador - LaCutanee",
+    "ROYAL THERAPY",
+    "R$ 795,00",
+    "R$ 284,00"
+   ],
+   [
+    "PÓS-PEELING",
+    "PEELING",
+    "R$ 638,00",
+    "R$ 252,50"
+   ],
+   [
+    "PRÉ-PEELING",
+    "PEELING",
+    "R$ 638,00",
+    "R$ 252,50"
+   ],
+   [
+    "PUMP UP",
+    "EQUIPAMENTOS",
+    "R$ 82,50",
+    "R$ 41,25"
+   ],
+   [
+    "RADIESSE - BIOESTIMULADOR COLO E PESCOÇO",
+    "BIOESTIMULADOR",
+    "R$ 2.409,00",
+    "R$ 1.869,00"
+   ],
+   [
+    "RADIESSE - BIOESTIMULADOR CORPORAL",
+    "BIOESTIMULADOR",
+    "R$ 2.409,00",
+    "R$ 1.869,00"
+   ],
+   [
+    "RADIESSE - BIOESTIMULADOR CORPORAL (3ml)",
+    "BIOESTIMULADOR",
+    "R$ 3.949,00",
+    "R$ 3.289,00"
+   ],
+   [
+    "RADIESSE - BIOESTIMULADOR FACIAL",
+    "BIOESTIMULADOR",
+    "R$ 2.409,00",
+    "R$ 1.768,90"
+   ],
+   [
+    "RADIOFREQUENCIA",
+    "EQUIPAMENTOS",
+    "R$ 110,00",
+    "R$ 55,00"
+   ],
+   [
+    "REAVALIAÇÃO DE ORÇAMENTO",
+    "AVALIAÇÃO",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "RENNOVA - BIOESTIMULADOR DIAMOND INTENSE",
+    "BIOESTIMULADOR",
+    "R$ 1.758,90",
+    "R$ 1.209,00"
+   ],
+   [
+    "RENNOVA - DIAMOND LIDO",
+    "BIOESTIMULADOR",
+    "R$ 1.450,00",
+    "R$ 1.208,00"
+   ],
+   [
+    "RENNOVA - DIAMOND X",
+    "BIOESTIMULADOR",
+    "R$ 3.600,00",
+    "R$ 3.000,00"
+   ],
+   [
+    "Rennova - Hidratação Profunda (Hydro 1ml)",
+    "PREENCHEDOR",
+    "R$ 1.019,26",
+    "R$ 728,04"
+   ],
+   [
+    "Rennova - Hidratação Profunda (Hydro 3ml)",
+    "PREENCHEDOR",
+    "R$ 2.602,94",
+    "R$ 1.859,24"
+   ],
+   [
+    "RENNOVA LIPS PLUS PREENCHIMENTO (1,1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "RENNOVA PREENCHIMENTO BIGODE CHINÊS (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "RENNOVA PREENCHIMENTO CÓDIGO DE BARRAS (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "RENNOVA PREENCHIMENTO LABIAL (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "RENNOVA PREENCHIMENTO MALAR (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.529,00",
+    "R$ 989,00"
+   ],
+   [
+    "RENNOVA PREENCHIMENTO MANDIBULA (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.529,00",
+    "R$ 989,00"
+   ],
+   [
+    "RENNOVA PREENCHIMENTO MANDIBULA (2ML)",
+    "PREENCHEDOR",
+    "R$ 2.629,00",
+    "R$ 1.840,00"
+   ],
+   [
+    "RENNOVA PREENCHIMENTO MARIONETE (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "RENNOVA PREENCHIMENTO OLHEIRAS (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "RENNOVA PREENCHIMENTO QUEIXO (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.529,00",
+    "R$ 989,00"
+   ],
+   [
+    "RENNOVA SOFT LIPS PREENCHIMENTO (1,1ML)",
+    "PREENCHEDOR",
+    "R$ 1.098,90",
+    "R$ 709,00"
+   ],
+   [
+    "RESTYLANE PREENCHIMENTO BIGODE CHINES (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "RESTYLANE PREENCHIMENTO CÓDIGO DE BARRAS (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "RESTYLANE PREENCHIMENTO KYSSE LABIAL (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "RESTYLANE PREENCHIMENTO LABIAL (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "RESTYLANE PREENCHIMENTO MALAR (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.529,00",
+    "R$ 989,00"
+   ],
+   [
+    "RESTYLANE PREENCHIMENTO MALAR E FOSSA (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.529,00",
+    "R$ 989,00"
+   ],
+   [
+    "RESTYLANE PREENCHIMENTO MANDIBULA (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.529,00",
+    "R$ 989,00"
+   ],
+   [
+    "RESTYLANE PREENCHIMENTO MANDIBULA (2ML)",
+    "PREENCHEDOR",
+    "R$ 2.629,00",
+    "R$ 1.840,00"
+   ],
+   [
+    "RESTYLANE PREENCHIMENTO MARIONETE (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "RESTYLANE PREENCHIMENTO OLHEIRAS (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "RESTYLANE PREENCHIMENTO QUEIXO (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.529,00",
+    "R$ 989,00"
+   ],
+   [
+    "RESTYLANE SHAYPE",
+    "PREENCHEDOR",
+    "R$ 1.758,90",
+    "R$ 1.539,00"
+   ],
+   [
+    "RESTYLANE VITAL",
+    "PREENCHEDOR",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "RETORNO",
+    "AVALIAÇÃO",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "RETORNO DE PREENCHIMENTO",
+    "PREENCHEDOR",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "RETORNO DO BOTOX",
+    "TOXINA",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "RETORNO FIOS",
+    "FIOS",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "ROYAL LIPS",
+    "MICROAGULHAMENTO",
+    "R$ 1.098,90",
+    "R$ 417,50"
+   ],
+   [
+    "ROYAL THERAPY - B-TOX MICRO BSK3 (2ml)",
+    "MICROAGULHAMENTO",
+    "R$ 768,90",
+    "R$ 269,00"
+   ],
+   [
+    "ROYAL THERAPY - CAPILAR MICRO BSK9 (2ml)",
+    "MICROAGULHAMENTO",
+    "R$ 768,90",
+    "R$ 269,00"
+   ],
+   [
+    "ROYAL THERAPY - CELULITE MICRO BSK (10ml)",
+    "MICROAGULHAMENTO",
+    "R$ 1.868,90",
+    "R$ 769,50"
+   ],
+   [
+    "ROYAL THERAPY - CELULITE MICRO BSK (5ml)",
+    "MICROAGULHAMENTO",
+    "R$ 768,90",
+    "R$ 269,00"
+   ],
+   [
+    "ROYAL THERAPY - DEFINIÇÃO GLÚTEA MICRO BSK28 (10ml)",
+    "MICROAGULHAMENTO",
+    "R$ 2.748,90",
+    "R$ 1.209,50"
+   ],
+   [
+    "ROYAL THERAPY - GORDURA LOCALIZADA MICRO BSK11 (10ml)",
+    "MICROAGULHAMENTO",
+    "R$ 1.868,90",
+    "R$ 769,50"
+   ],
+   [
+    "ROYAL THERAPY - LABIAL MICRO BSK31 (2ml)",
+    "MICROAGULHAMENTO",
+    "R$ 352,00",
+    "R$ 126,00"
+   ],
+   [
+    "ROYAL THERAPY - LINHAS FINAS KIT HOME CARE BSK75",
+    "MICROAGULHAMENTO",
+    "R$ 3.628,90",
+    "R$ 1.649,50"
+   ],
+   [
+    "ROYAL THERAPY - LINHAS FINAS MICRO (2ml)",
+    "MICROAGULHAMENTO",
+    "R$ 768,90",
+    "R$ 269,00"
+   ],
+   [
+    "ROYAL THERAPY - LINHAS FINAS MICRO BSK1 (2ml)",
+    "MICROAGULHAMENTO",
+    "R$ 768,90",
+    "R$ 269,00"
+   ],
+   [
+    "ROYAL THERAPY - MANCHAS KIT HOME CARE BSK70",
+    "MICROAGULHAMENTO",
+    "R$ 3.628,90",
+    "R$ 1.649,50"
+   ],
+   [
+    "ROYAL THERAPY - MANCHAS KIT HOME CARE BSK703",
+    "MICROAGULHAMENTO",
+    "R$ 8.138,90",
+    "R$ 3.662,50"
+   ],
+   [
+    "ROYAL THERAPY - MANCHAS MICRO BSK (2ml)",
+    "MICROAGULHAMENTO",
+    "R$ 768,90",
+    "R$ 269,00"
+   ],
+   [
+    "ROYAL THERAPY - MANCHAS PEELING BSK800 (2ml)",
+    "MICROAGULHAMENTO",
+    "R$ 768,90",
+    "R$ 269,00"
+   ],
+   [
+    "ROYAL THERAPY - OLHEIRAS E BOLSAS MICRO BSK32 (1ml)",
+    "MICROAGULHAMENTO",
+    "R$ 1.098,90",
+    "R$ 384,50"
+   ],
+   [
+    "ROYAL THERAPY - PDRN MICRO BSK 6 (1ml)",
+    "MICROAGULHAMENTO",
+    "R$ 988,90",
+    "R$ 346,00"
+   ],
+   [
+    "ROYAL THERAPY - REVITALIZADOR E LINHAS FINAS KIT HOME CARE BSK73",
+    "MICROAGULHAMENTO",
+    "R$ 3.628,90",
+    "R$ 1.649,50"
+   ],
+   [
+    "ROYAL THERAPY - REVITALIZADOR LINHAS FINAS MICRO BSK22 (5ml)",
+    "MICROAGULHAMENTO",
+    "R$ 1.098,90",
+    "R$ 384,50"
+   ],
+   [
+    "ROYAL THERAPY - REVITALIZADOR LINHAS FINAS MICRO BSK4 (1ml)",
+    "MICROAGULHAMENTO",
+    "R$ 352,00",
+    "R$ 126,00"
+   ],
+   [
+    "ROYAL THERAPY - REVITALIZADOR MICRO BSK (2ml)",
+    "MICROAGULHAMENTO",
+    "R$ 768,90",
+    "R$ 269,00"
+   ],
+   [
+    "ROYAL THERAPY - REVITALIZADOR MICRO BSK1 (10ml)",
+    "MICROAGULHAMENTO",
+    "R$ 1.868,90",
+    "R$ 769,50"
+   ],
+   [
+    "ROYAL THERAPY - REVITALIZADOR MICRO BSK4 (10ml)",
+    "MICROAGULHAMENTO",
+    "R$ 1.868,90",
+    "R$ 769,50"
+   ],
+   [
+    "ROYAL THERAPY - REVITALIZADOR MICRO BSK4 (2ml)",
+    "MICROAGULHAMENTO",
+    "R$ 548,90",
+    "R$ 192,00"
+   ],
+   [
+    "ROYAL THERAPY - REVITALIZADOR MICRO BSK5 (5ml)",
+    "MICROAGULHAMENTO",
+    "R$ 1.978,90",
+    "R$ 824,50"
+   ],
+   [
+    "ROYAL THERAPY - REVITALIZADOR MICRO BSK5(1ml)",
+    "MICROAGULHAMENTO",
+    "R$ 504,90",
+    "R$ 181,00"
+   ],
+   [
+    "SCULPTRA - BIOESTIMULADOR COLO E PESCOÇO",
+    "BIOESTIMULADOR",
+    "R$ 3.949,00",
+    "R$ 3.289,00"
+   ],
+   [
+    "SCULPTRA - BIOESTIMULADOR CORPORAL",
+    "BIOESTIMULADOR",
+    "R$ 2.805,00",
+    "R$ 1.964,00"
+   ],
+   [
+    "SCULPTRA - BIOESTIMULADOR FACIAL",
+    "BIOESTIMULADOR",
+    "R$ 2.805,00",
+    "R$ 1.964,00"
+   ],
+   [
+    "SHAPELIDO PREENCHEDOR 10ml - HIDRATAÇÃO PROFUNDA",
+    "PREENCHEDOR",
+    "R$ 4.728,90",
+    "R$ 3.299,00"
+   ],
+   [
+    "SHAPELIDO PREENCHEDOR 20ml - VOLUMIZAÇÃO",
+    "PREENCHEDOR",
+    "R$ 9.458,90",
+    "R$ 6.599,00"
+   ],
+   [
+    "SKINBOOSTER INTENSE ROYAL FACE (10mL)",
+    "ENZIMA FACIAL",
+    "R$ 979,00",
+    "R$ 379,50"
+   ],
+   [
+    "SKINVIVE BY JUVEDERM 1ml",
+    "PREENCHEDOR",
+    "R$ 1.098,90",
+    "R$ 835,00"
+   ],
+   [
+    "SKINVIVE BY JUVEDERM 2ml",
+    "PREENCHEDOR",
+    "R$ 1.868,90",
+    "R$ 1.649,00"
+   ],
+   [
+    "TRATAMENTO DE MELASMA",
+    "ENZIMA FACIAL",
+    "R$ 550,00",
+    "R$ 247,50"
+   ],
+   [
+    "US. MICROFOCADO - ABDÔMEN COMPLETO",
+    "ULTRASSOM",
+    "R$ 3.509,00",
+    "R$ 1.403,50"
+   ],
+   [
+    "US. MICROFOCADO - ÁREA DOS OLHOS",
+    "ULTRASSOM",
+    "R$ 649,00",
+    "R$ 259,50"
+   ],
+   [
+    "US. MICROFOCADO - BANANINHA ( GLÚTEO INFERIOR )",
+    "ULTRASSOM",
+    "R$ 2.849,00",
+    "R$ 1.139,50"
+   ],
+   [
+    "US. MICROFOCADO - BICHECTOMIA",
+    "ULTRASSOM",
+    "R$ 1.199,00",
+    "R$ 479,50"
+   ],
+   [
+    "US. MICROFOCADO - BRAÇOS",
+    "ULTRASSOM",
+    "R$ 2.299,00",
+    "R$ 919,50"
+   ],
+   [
+    "US. MICROFOCADO - COLO",
+    "ULTRASSOM",
+    "R$ 2.189,00",
+    "R$ 875,50"
+   ],
+   [
+    "US. MICROFOCADO - COSTAS",
+    "ULTRASSOM",
+    "R$ 3.509,00",
+    "R$ 1.403,50"
+   ],
+   [
+    "US. MICROFOCADO - DISPARO ADICIONAL - 1,5",
+    "ULTRASSOM",
+    "R$ 539,00",
+    "R$ 215,50"
+   ],
+   [
+    "US. MICROFOCADO - DISPARO ADICIONAL - 13,0",
+    "ULTRASSOM",
+    "R$ 539,00",
+    "R$ 215,50"
+   ],
+   [
+    "US. MICROFOCADO - DISPARO ADICIONAL - 3,0",
+    "ULTRASSOM",
+    "R$ 539,00",
+    "R$ 215,50"
+   ],
+   [
+    "US. MICROFOCADO - DISPARO ADICIONAL - 4,5",
+    "ULTRASSOM",
+    "R$ 539,00",
+    "R$ 215,50"
+   ],
+   [
+    "US. MICROFOCADO - DISPARO ADICIONAL - 8,0",
+    "ULTRASSOM",
+    "R$ 539,00",
+    "R$ 215,50"
+   ],
+   [
+    "US. MICROFOCADO - FULL FACE",
+    "ULTRASSOM",
+    "R$ 2.849,00",
+    "R$ 1.139,50"
+   ],
+   [
+    "US. MICROFOCADO - GLÚTEO - SUPERIOR",
+    "ULTRASSOM",
+    "R$ 2.299,00",
+    "R$ 919,50"
+   ],
+   [
+    "US. MICROFOCADO - INTERNO DE COXA",
+    "ULTRASSOM",
+    "R$ 3.949,00",
+    "R$ 1.579,50"
+   ],
+   [
+    "US. MICROFOCADO - JOELHO",
+    "ULTRASSOM",
+    "R$ 1.199,00",
+    "R$ 479,50"
+   ],
+   [
+    "US. MICROFOCADO - MALAR",
+    "ULTRASSOM",
+    "R$ 649,00",
+    "R$ 259,50"
+   ],
+   [
+    "US. MICROFOCADO - MÃOS",
+    "ULTRASSOM",
+    "R$ 539,00",
+    "R$ 215,50"
+   ],
+   [
+    "US. MICROFOCADO - PÁLPEBRA INFERIOR",
+    "ULTRASSOM",
+    "R$ 539,00",
+    "R$ 215,50"
+   ],
+   [
+    "US. MICROFOCADO - PAPADA",
+    "ULTRASSOM",
+    "R$ 979,00",
+    "R$ 391,50"
+   ],
+   [
+    "US. MICROFOCADO - PESCOÇO",
+    "ULTRASSOM",
+    "R$ 979,00",
+    "R$ 391,50"
+   ],
+   [
+    "US. MICROFOCADO - PNEUZINHO - ( FLANCOS )",
+    "ULTRASSOM",
+    "R$ 2.299,00",
+    "R$ 919,50"
+   ],
+   [
+    "US. MICROFOCADO - PREGA AXILAS",
+    "ULTRASSOM",
+    "R$ 649,00",
+    "R$ 259,50"
+   ],
+   [
+    "US. MICROFOCADO - REGIÃO PUBIANA",
+    "ULTRASSOM",
+    "R$ 979,00",
+    "R$ 391,50"
+   ],
+   [
+    "US. MICROFOCADO - TERÇO INFERIOR DA FACE",
+    "ULTRASSOM",
+    "R$ 1.199,00",
+    "R$ 479,50"
+   ],
+   [
+    "US. MICROFOCADO - TESTA + FOX EYE",
+    "ULTRASSOM",
+    "R$ 649,00",
+    "R$ 259,50"
+   ],
+   [
+    "US. MICROFOCADO - UMBIGO TRISTE",
+    "ULTRASSOM",
+    "R$ 2.299,00",
+    "R$ 919,50"
+   ],
+   [
+    "US. MICROFOCADO LIPS BIGODE DE CHINÊS",
+    "ULTRASSOM",
+    "R$ 759,00",
+    "R$ 297,00"
+   ],
+   [
+    "US. MICROFOCADO LIPS CÓDIGO DE BARRAS",
+    "ULTRASSOM",
+    "R$ 759,00",
+    "R$ 297,00"
+   ],
+   [
+    "US. MICROFOCADO LIPS LABIAL",
+    "ULTRASSOM",
+    "R$ 539,00",
+    "R$ 209,00"
+   ],
+   [
+    "US. MICROFOCADO LIPS MARIONETE",
+    "ULTRASSOM",
+    "R$ 759,00",
+    "R$ 297,00"
+   ],
+   [
+    "US. MICROFOCADO LIPS PERIORAL",
+    "ULTRASSOM",
+    "R$ 759,00",
+    "R$ 297,00"
+   ],
+   [
+    "Victa - Skinbooster (NAG)",
+    "ENZIMA FACIAL",
+    "R$ 583,00",
+    "R$ 241,50"
+   ],
+   [
+    "XEOMIN - TOXINA BOTULÍNICA 3 REGIÕES",
+    "TOXINA",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "XEOMIN - TOXINA BOTULÍNICA 4 REGIÕES",
+    "TOXINA",
+    "R$ 1.529,00",
+    "R$ 989,00"
+   ],
+   [
+    "XEOMIN - TOXINA BOTULÍNICA CÓDIGO DE BARRAS",
+    "TOXINA",
+    "R$ 319,00",
+    "R$ 223,00"
+   ],
+   [
+    "XEOMIN - TOXINA BOTULÍNICA GATINHO",
+    "TOXINA",
+    "R$ 319,00",
+    "R$ 223,00"
+   ],
+   [
+    "XEOMIN - TOXINA BOTULÍNICA GLABELA",
+    "TOXINA",
+    "R$ 539,00",
+    "R$ 377,00"
+   ],
+   [
+    "XEOMIN - TOXINA BOTULÍNICA GLOBAL",
+    "TOXINA",
+    "R$ 1.749,00",
+    "R$ 1.224,00"
+   ],
+   [
+    "XEOMIN - TOXINA BOTULÍNICA NARIZ",
+    "TOXINA",
+    "R$ 319,00",
+    "R$ 223,00"
+   ],
+   [
+    "XEOMIN - TOXINA BOTULÍNICA NEFERTITE",
+    "TOXINA",
+    "R$ 1.309,00",
+    "R$ 769,00"
+   ],
+   [
+    "XEOMIN - TOXINA BOTULÍNICA OLHOS",
+    "TOXINA",
+    "R$ 649,00",
+    "R$ 454,00"
+   ],
+   [
+    "XEOMIN - TOXINA BOTULÍNICA QUEIXO CELULÍTICO",
+    "TOXINA",
+    "R$ 319,00",
+    "R$ 223,00"
+   ],
+   [
+    "XEOMIN - TOXINA BOTULÍNICA SORRISO GENGIVAL/SORRISO TRISTE",
+    "TOXINA",
+    "R$ 319,00",
+    "R$ 223,00"
+   ],
+   [
+    "XEOMIN - TOXINA BOTULÍNICA SUDORESE",
+    "TOXINA",
+    "R$ 1.749,00",
+    "R$ 1.224,00"
+   ],
+   [
+    "XEOMIN - TOXINA BOTULÍNICA TESTA",
+    "TOXINA",
+    "R$ 539,00",
+    "R$ 377,00"
+   ]
+  ],
+  "2 - TABELA BONIFICADO": [
+   [
+    "APLICAÇÃO MÁSCARA FACIAL DE OURO",
+    "OUTROS",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "AVALIAÇÃO",
+    "OUTROS",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "CARBOXITERAPIA",
+    "EQUIPAMENTOS",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "CORRENTE RUSSA",
+    "EQUIPAMENTOS",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "DMAE",
+    "OUTROS",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "LED LASER",
+    "EQUIPAMENTOS",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "LIMPEZA DE PELE PROFUNDA",
+    "OUTROS",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "MASSAGEM MODELADORA",
+    "ENZIMA CORPORAL",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "MASSAGEM RELAXANTE",
+    "ENZIMA CORPORAL",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "MICROAGULHAMENTO",
+    "EQUIPAMENTOS",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "Ocorrência (ava)",
+    "OUTROS",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "PEELING DE CÍMEL",
+    "PEELING",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "PEELING DE DIAMANTE",
+    "PEELING",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "PEELING MANDÉLICO",
+    "PEELING",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "PEELING RETINÓICO",
+    "PEELING",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "PEELING SALICILICO",
+    "PEELING",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "PEELING SOLUÇÃO JESSNER 1",
+    "PEELING",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "PEELING SOLUÇÃO JESSNER 2",
+    "PEELING",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "PEELING TIOGLICOLICO",
+    "PEELING",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "PEIM",
+    "ENZIMA CORPORAL",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "PUMP UP",
+    "EQUIPAMENTOS",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "RADIOFREQUENCIA",
+    "EQUIPAMENTOS",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "REAVALIAÇÃO DE ORÇAMENTO",
+    "OUTROS",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "RETORNO",
+    "OUTROS",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "RETORNO DE PREENCHIMENTO",
+    "PREENCHEDOR",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "RETORNO DO BOTOX",
+    "TOXINA",
+    "R$ 0,00",
+    "R$ 0,00"
+   ],
+   [
+    "RETORNO FIOS",
+    "FIOS",
+    "R$ 0,00",
+    "R$ 0,00"
+   ]
+  ],
+  "3 - TABELA HOME CARE": [
+   [
+    "ESPUMA FACIAL [MERC]",
+    "SKINCARE",
+    "R$ 89,00",
+    "R$ 0,00"
+   ],
+   [
+    "GLOSS LABIAL [MERC]",
+    "SKINCARE",
+    "R$ 89,00",
+    "R$ 0,00"
+   ],
+   [
+    "HIDRATANTE PROTETOR (CREME) [MERC]",
+    "SKINCARE",
+    "R$ 79,90",
+    "R$ 0,00"
+   ],
+   [
+    "HIDRATANTE PROTETOR (STICK) [MERC]",
+    "SKINCARE",
+    "R$ 109,90",
+    "R$ 0,00"
+   ],
+   [
+    "PÉROLAS DE VITAMINA C [MERC]",
+    "SKINCARE",
+    "R$ 219,00",
+    "R$ 0,00"
+   ],
+   [
+    "SERUM DIURNO [MERC]",
+    "SKINCARE",
+    "R$ 99,00",
+    "R$ 0,00"
+   ],
+   [
+    "SERUM NOTURNO [MERC]",
+    "SKINCARE",
+    "R$ 99,00",
+    "R$ 0,00"
+   ],
+   [
+    "TOALHAS UMEDECIDAS MICELAR [MERC]",
+    "SKINCARE",
+    "R$ 23,00",
+    "R$ 0,00"
+   ]
+  ],
+  "BLACK FRIDAY 2026": [
+   [
+    "(ALLERGAN) BOTOX - TOXINA BOTULÍNICA 3 REGIÕES",
+    "TOXINA",
+    "R$ 979,00",
+    "R$ 699,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 01 FIO COM GARRA",
+    "FIOS",
+    "R$ 379,00",
+    "R$ 269,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 01 FIO FILLER",
+    "FIOS",
+    "R$ 559,00",
+    "R$ 399,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 01 FIO LISO/MONO AGULHA I-THREAD",
+    "FIOS",
+    "R$ 169,00",
+    "R$ 119,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 01 FIO MATRIX/CAVERN",
+    "FIOS",
+    "R$ 769,00",
+    "R$ 549,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 01 FIO PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 239,00",
+    "R$ 169,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 01 FIO SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 699,00",
+    "R$ 499,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 02 FIOS COM GARRA",
+    "FIOS",
+    "R$ 559,00",
+    "R$ 399,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 02 FIOS FILLER",
+    "FIOS",
+    "R$ 1.119,00",
+    "R$ 799,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 02 FIOS LISO/MONO AGULHA I-THREAD",
+    "FIOS",
+    "R$ 209,00",
+    "R$ 149,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 02 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 1.539,00",
+    "R$ 1.099,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 02 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 419,00",
+    "R$ 299,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 02 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 1.399,00",
+    "R$ 999,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 03 FIOS COM GARRA",
+    "FIOS",
+    "R$ 839,00",
+    "R$ 599,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 03 FIOS FILLER",
+    "FIOS",
+    "R$ 1.679,00",
+    "R$ 1.199,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 03 FIOS LISO/MONO AGULHA I-THREAD",
+    "FIOS",
+    "R$ 319,00",
+    "R$ 229,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 03 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 2.379,00",
+    "R$ 1.699,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 03 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 489,00",
+    "R$ 349,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 03 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 2.099,00",
+    "R$ 1.499,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 04 FIOS COM GARRA",
+    "FIOS",
+    "R$ 1.119,00",
+    "R$ 799,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 04 FIOS FILLER",
+    "FIOS",
+    "R$ 2.239,00",
+    "R$ 1.599,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 04 FIOS LISO/MONO AGULHA I-THREAD",
+    "FIOS",
+    "R$ 419,00",
+    "R$ 299,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 04 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 3.219,00",
+    "R$ 2.299,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 04 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 669,00",
+    "R$ 479,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 04 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 2.799,00",
+    "R$ 1.999,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 05 FIOS COM GARRA",
+    "FIOS",
+    "R$ 1.399,00",
+    "R$ 999,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 05 FIOS FILLER",
+    "FIOS",
+    "R$ 2.799,00",
+    "R$ 1.999,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 05 FIOS LISO/MONO AGULHA I-THREAD",
+    "FIOS",
+    "R$ 549,00",
+    "R$ 389,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 05 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 3.919,00",
+    "R$ 2.799,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 05 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 839,00",
+    "R$ 599,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 05 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 3.499,00",
+    "R$ 2.499,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 06 FIOS COM GARRA",
+    "FIOS",
+    "R$ 1.749,00",
+    "R$ 1.249,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 06 FIOS FILLER",
+    "FIOS",
+    "R$ 3.359,00",
+    "R$ 2.399,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 06 FIOS LISO/MONO AGULHA I-THREAD",
+    "FIOS",
+    "R$ 629,00",
+    "R$ 449,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 06 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 4.619,00",
+    "R$ 3.299,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 06 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 979,00",
+    "R$ 699,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 06 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 4.199,00",
+    "R$ 2.999,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 07 FIOS COM GARRA",
+    "FIOS",
+    "R$ 2.099,00",
+    "R$ 1.499,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 07 FIOS FILLER",
+    "FIOS",
+    "R$ 3.919,00",
+    "R$ 2.799,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 07 FIOS LISO/MONO AGULHA I-THREAD",
+    "FIOS",
+    "R$ 729,00",
+    "R$ 519,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 07 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 5.319,00",
+    "R$ 3.799,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 07 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 1.189,00",
+    "R$ 849,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 07 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 4.899,00",
+    "R$ 3.499,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 08 FIOS COM GARRA",
+    "FIOS",
+    "R$ 2.379,00",
+    "R$ 1.699,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 08 FIOS FILLER",
+    "FIOS",
+    "R$ 4.479,00",
+    "R$ 3.199,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 08 FIOS LISO/MONO AGULHA I-THREAD",
+    "FIOS",
+    "R$ 839,00",
+    "R$ 599,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 08 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 6.019,00",
+    "R$ 4.299,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 08 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 6.019,00",
+    "R$ 4.299,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 08 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 1.259,00",
+    "R$ 899,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 08 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 5.599,00",
+    "R$ 3.999,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 09 FIOS COM GARRA",
+    "FIOS",
+    "R$ 2.659,00",
+    "R$ 1.899,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 09 FIOS FILLER",
+    "FIOS",
+    "R$ 5.039,00",
+    "R$ 3.599,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 09 FIOS LISO/MONO AGULHA I-THREAD",
+    "FIOS",
+    "R$ 939,00",
+    "R$ 669,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 09 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 6.719,00",
+    "R$ 4.799,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 09 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 1.539,00",
+    "R$ 1.099,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 09 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 6.299,00",
+    "R$ 4.499,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 10 FIOS COM GARRA",
+    "FIOS",
+    "R$ 2.799,00",
+    "R$ 1.999,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 10 FIOS FILLER",
+    "FIOS",
+    "R$ 5.599,00",
+    "R$ 3.999,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 10 FIOS LISO/MONO AGULHA I-THREAD",
+    "FIOS",
+    "R$ 1.109,00",
+    "R$ 789,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 10 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 7.419,00",
+    "R$ 5.299,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 10 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 1.679,00",
+    "R$ 1.199,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 10 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 6.999,00",
+    "R$ 4.999,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 11 FIOS COM GARRA",
+    "FIOS",
+    "R$ 3.219,00",
+    "R$ 2.299,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 11 FIOS FILLER",
+    "FIOS",
+    "R$ 6.159,00",
+    "R$ 4.399,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 11 FIOS LISO/MONO AGULHA I-THREAD",
+    "FIOS",
+    "R$ 1.149,00",
+    "R$ 819,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 11 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 8.119,00",
+    "R$ 5.799,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 11 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 1.819,00",
+    "R$ 1.299,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 11 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 7.699,00",
+    "R$ 5.499,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 12 FIOS COM GARRA",
+    "FIOS",
+    "R$ 3.499,00",
+    "R$ 2.499,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 12 FIOS FILLER",
+    "FIOS",
+    "R$ 6.719,00",
+    "R$ 4.799,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 12 FIOS LISO/MONO AGULHA I-THREAD",
+    "FIOS",
+    "R$ 1.259,00",
+    "R$ 899,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 12 FIOS MATRIX/CAVERN",
+    "FIOS",
+    "R$ 8.819,00",
+    "R$ 6.299,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 12 FIOS PARAFUSO/SCREW",
+    "FIOS",
+    "R$ 1.959,00",
+    "R$ 1.378,00"
+   ],
+   [
+    "APLICAÇÃO FIOS DE PDO - 12 FIOS SCULPT/CONICO SZ",
+    "FIOS",
+    "R$ 8.399,00",
+    "R$ 5.999,00"
+   ],
+   [
+    "Combo 1 - Colágeno total - Compre e Ganhe Radiesse Face, Pescoço, Colo (Radiesse)",
+    "COMBO",
+    "R$ 3.599,00",
+    "R$ 3.599,00"
+   ],
+   [
+    "Combo 10 - 2 em 1 - 2 aplicações de Xeomin 3 regiões",
+    "COMBO",
+    "R$ 1.398,00",
+    "R$ 1.398,00"
+   ],
+   [
+    "Combo 2 - Resgate de Volume - compre e ganhe Ultra XC (Labial + Olheiras Ganhe Bigode ou Marionete)",
+    "COMBO",
+    "R$ 2.599,00",
+    "R$ 2.599,00"
+   ],
+   [
+    "Combo 3 - Design Facial - compre e ganhe Juvederm Voluma (Malar + Mandibula)",
+    "COMBO",
+    "R$ 2.999,00",
+    "R$ 2.999,00"
+   ],
+   [
+    "Combo 4 - Relax and Refresh - (Skinvive 2ml +Botox 3 regiões)",
+    "COMBO",
+    "R$ 1.869,00",
+    "R$ 1.869,00"
+   ],
+   [
+    "Combo 5 - Dupla Imbatível - (Juvederm Labial + Botox 3 regiões)",
+    "COMBO",
+    "R$ 1.499,00",
+    "R$ 1.499,00"
+   ],
+   [
+    "Combo 6 - Par Perfeito - (Sculptra Facial +Dysport 3 regiões)",
+    "COMBO",
+    "R$ 2.799,00",
+    "R$ 2.799,00"
+   ],
+   [
+    "Combo 7 - Boom de colágeno - (Compre e Ganhe Fios Lisos)",
+    "COMBO",
+    "R$ 1.650,00",
+    "R$ 1.650,00"
+   ],
+   [
+    "Combo 8 - Beleza em dobro + Colágeno e Volume - (Compre e Ganhe Fios Parafuso)",
+    "COMBO",
+    "R$ 1.848,00",
+    "R$ 1.848,00"
+   ],
+   [
+    "Combo 9 - Lift imediato - (Compre e ganhe Fios Garra)",
+    "COMBO",
+    "R$ 2.728,00",
+    "R$ 2.728,00"
+   ],
+   [
+    "DYSPORT - TOXINA BOTULÍNICA 3 REGIÕES",
+    "TOXINA",
+    "R$ 979,00",
+    "R$ 699,00"
+   ],
+   [
+    "ELLEVA - BIOESTIMULADOR (150mg)",
+    "BIOESTIMULADOR",
+    "R$ 2.379,00",
+    "R$ 1.699,00"
+   ],
+   [
+    "ELLEVA - FACE E PESCOÇO (210MG)",
+    "BIOESTIMULADOR",
+    "R$ 2.799,00",
+    "R$ 1.999,00"
+   ],
+   [
+    "HARMONYCA - BIOESTIMULADOR E PREENCHEDOR (1 seringa)",
+    "BIOESTIMULADOR",
+    "R$ 2.990,00",
+    "R$ 1.590,00"
+   ],
+   [
+    "HARMONYCA - BIOESTIMULADOR E PREENCHEDOR (2 seringas)",
+    "BIOESTIMULADOR",
+    "R$ 3.359,00",
+    "R$ 2.399,00"
+   ],
+   [
+    "JUVEDERM PREENCHIMENTO BIGODE CHINES (1ML)",
+    "PREENCHEDOR",
+    "R$ 909,00",
+    "R$ 649,00"
+   ],
+   [
+    "JUVEDERM PREENCHIMENTO CÓDIGO DE BARRAS (1ML)",
+    "PREENCHEDOR",
+    "R$ 909,00",
+    "R$ 649,00"
+   ],
+   [
+    "JUVEDERM PREENCHIMENTO LABIAL (1ML)",
+    "PREENCHEDOR",
+    "R$ 909,00",
+    "R$ 649,00"
+   ],
+   [
+    "JUVEDERM PREENCHIMENTO MALAR (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.119,00",
+    "R$ 799,00"
+   ],
+   [
+    "JUVEDERM PREENCHIMENTO MANDIBULA/QUEIXO (2ML)",
+    "PREENCHEDOR",
+    "R$ 1.809,00",
+    "R$ 1.289,00"
+   ],
+   [
+    "JUVEDERM PREENCHIMENTO MARIONETE (1ML)",
+    "PREENCHEDOR",
+    "R$ 909,00",
+    "R$ 649,00"
+   ],
+   [
+    "JUVEDERM PREENCHIMENTO OLHEIRAS (1ML)",
+    "PREENCHEDOR",
+    "R$ 909,00",
+    "R$ 649,00"
+   ],
+   [
+    "JUVEDERM PREENCHIMENTO QUEIXO (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.119,00",
+    "R$ 799,00"
+   ],
+   [
+    "JUVEDERM VOLUMA PREENCHIMENTO MALAR E FOSSA (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.119,00",
+    "R$ 799,00"
+   ],
+   [
+    "JUVEDERM VOLUMA PREENCHIMENTO MANDIBULA (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.119,00",
+    "R$ 799,00"
+   ],
+   [
+    "JUVEDERM VOLUMA PREENCHIMENTO TEMPORA (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.119,00",
+    "R$ 799,00"
+   ],
+   [
+    "RADIESSE - BIOESTIMULADOR COLO E PESCOÇO",
+    "BIOESTIMULADOR",
+    "R$ 2.616,00",
+    "R$ 1.869,00"
+   ],
+   [
+    "RADIESSE - BIOESTIMULADOR CORPORAL",
+    "BIOESTIMULADOR",
+    "R$ 4.186,00",
+    "R$ 2.990,00"
+   ],
+   [
+    "RADIESSE - BIOESTIMULADOR FACIAL",
+    "BIOESTIMULADOR",
+    "R$ 2.379,00",
+    "R$ 1.699,00"
+   ],
+   [
+    "RENNOVA - BIOESTIMULADOR DIAMOND INTENSE",
+    "BIOESTIMULADOR",
+    "R$ 1.539,00",
+    "R$ 1.099,00"
+   ],
+   [
+    "RENNOVA PREENCHIMENTO BIGODE CHINÊS / MARIONETE (1ML)",
+    "PREENCHEDOR",
+    "R$ 979,00",
+    "R$ 699,00"
+   ],
+   [
+    "RENNOVA PREENCHIMENTO MALAR (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.119,00",
+    "R$ 799,00"
+   ],
+   [
+    "RENNOVA PREENCHIMENTO MANDIBULA (2ML)",
+    "PREENCHEDOR",
+    "R$ 2.099,00",
+    "R$ 1.499,00"
+   ],
+   [
+    "RENNOVA PREENCHIMENTO MANDIBULA /QUEIXO (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.119,00",
+    "R$ 799,00"
+   ],
+   [
+    "RESTYLANE LYFT LIDO PREENCHIMENTO MALAR (1ML)",
+    "PREENCHEDOR",
+    "R$ 1.119,00",
+    "R$ 799,00"
+   ],
+   [
+    "RESTYLANE PREENCHIMENTO BIGODE CHINES (1ML)",
+    "PREENCHEDOR",
+    "R$ 979,00",
+    "R$ 699,00"
+   ],
+   [
+    "RESTYLANE PREENCHIMENTO CÓDIGO DE BARRAS (1ML)",
+    "PREENCHEDOR",
+    "R$ 979,00",
+    "R$ 699,00"
+   ],
+   [
+    "RESTYLANE PREENCHIMENTO LABIAL (1ML)",
+    "PREENCHEDOR",
+    "R$ 979,00",
+    "R$ 699,00"
+   ],
+   [
+    "RESTYLANE PREENCHIMENTO MARIONETE (1ML)",
+    "PREENCHEDOR",
+    "R$ 979,00",
+    "R$ 699,00"
+   ],
+   [
+    "RESTYLANE PREENCHIMENTO OLHEIRAS (1ML)",
+    "PREENCHEDOR",
+    "R$ 979,00",
+    "R$ 699,00"
+   ],
+   [
+    "SCULPTRA - BIOESTIMULADOR COLO E PESCOÇO",
+    "BIOESTIMULADOR",
+    "R$ 4.059,00",
+    "R$ 2.899,00"
+   ],
+   [
+    "SCULPTRA - BIOESTIMULADOR FACIAL / CORPORAL",
+    "BIOESTIMULADOR",
+    "R$ 2.379,00",
+    "R$ 1.699,00"
+   ],
+   [
+    "SHAPELIDO PREENCHEDOR 10ml - HIDRATAÇÃO PROFUNDA",
+    "PREENCHEDOR",
+    "R$ 3.289,00",
+    "R$ 2.349,00"
+   ],
+   [
+    "SHAPELIDO PREENCHEDOR 20ml - VOLUMIZAÇÃO",
+    "PREENCHEDOR",
+    "R$ 6.559,00",
+    "R$ 4.679,00"
+   ],
+   [
+    "SKINVIVE BY JUVEDERM 2ml",
+    "PREENCHEDOR",
+    "R$ 1.539,00",
+    "R$ 1.099,00"
+   ],
+   [
+    "XEOMIN - TOXINA BOTULÍNICA 3 REGIÕES (200UI)",
+    "TOXINA",
+    "R$ 1.009,00",
+    "R$ 720,00"
+   ]
+  ]
+ }
+}

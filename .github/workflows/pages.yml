@@ -20,6 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Confere cada preço contra a leitura do Clinicorp
+        run: python3 scripts/gerar_dados.py --conferir
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

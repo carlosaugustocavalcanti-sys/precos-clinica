@@ -142,7 +142,12 @@ main { padding-block: 24px 40px; }
 }
 .preco dd { margin: 4px 0 0; font-weight: 800; font-size: 1.125rem; letter-spacing: -0.01em; white-space: nowrap; }
 .preco .sub { display: block; margin-top: 2px; font-weight: 700; font-size: 0.75rem; letter-spacing: 0; }
-.preco.vazio dd { color: var(--gray); font-weight: 500; font-size: 0.875rem; padding-block: 3px; }
+.preco .rot { display: block; font-weight: 700; font-size: 0.75rem; letter-spacing: 0; color: var(--on-black-muted); }
+.preco.bf dd + dd { margin-top: 8px; }
+.como { margin: 4px 0 0; color: var(--gray); font-size: 0.8125rem; line-height: 1.3; overflow-wrap: anywhere; }
+.como mark { background: var(--yellow); color: var(--black); padding: 0 0.12em; border-radius: 2px; }
+.preco.vazio dd { color: var(--gray); font-weight: 500; font-size: 0.875rem; padding-block: 3px; white-space: normal; line-height: 1.2; }
+.preco .sub { white-space: normal; }
 .preco.bf { background: var(--black); }
 .preco.bf dt, .preco.bf .sub { color: var(--on-black-muted); }
 .preco.bf dd { color: var(--yellow); }
@@ -244,20 +249,31 @@ footer p { margin: 0; max-width: 70ch; }
     return html + (aberto ? '</mark>' : '');
   }
 
-  function celula(classe, rotulo, valor, sub) {
-    if (valor == null) {
-      return `<div class="preco ${classe} vazio"><dt>${rotulo}</dt><dd>Sem preço</dd></div>`;
-    }
-    return `<div class="preco ${classe}"><dt>${rotulo}</dt><dd>${real.format(valor)}${sub ? `<span class="sub">${sub}</span>` : ''}</dd></div>`;
+  function celula(rotulo, valor, vazio) {
+    if (valor == null) return `<div class="preco vazio"><dt>${rotulo}</dt><dd>${vazio}</dd></div>`;
+    return `<div class="preco"><dt>${rotulo}</dt><dd>${real.format(valor)}</dd></div>`;
+  }
+
+  // Black Friday pode ter mais de um preço para o mesmo item (ex.: Harmonyca 1 ou 2 seringas).
+  function celulaBf(ofertas) {
+    if (!ofertas) return `<div class="preco bf vazio"><dt>Black Friday</dt><dd>Fora da campanha</dd></div>`;
+    const valores = ofertas.map((o) =>
+      `<dd>${o.r ? `<span class="rot">${esc(o.r)}</span>` : ''}${real.format(o.p)}${o.min ? `<span class="sub">mín. ${real.format(o.min)}</span>` : ''}</dd>`
+    ).join('');
+    return `<div class="preco bf"><dt>Black Friday</dt>${valores}</div>`;
   }
 
   function linha(item, termos) {
+    const vazio = item.soBf ? '—' : 'Não cadastrado';
+    const comos = [...new Set((item.bf || []).map((o) => o.como).filter(Boolean))];
+    const como = comos.length
+      ? `<p class="como">Na Black Friday: ${comos.map((c) => destacar(c, termos)).join(' · ')}</p>` : '';
     return `<li class="item">
-      <div><p class="nome">${destacar(item.n, termos)}</p>${item.e ? `<span class="tag">${esc(item.e)}</span>` : ''}</div>
+      <div><p class="nome">${destacar(item.n, termos)}</p>${como}${item.e ? `<span class="tag">${esc(item.e)}</span>` : ''}</div>
       <dl class="precos">
-        ${celula('', 'Máximo', item.max)}
-        ${celula('', 'Mínimo', item.min)}
-        ${celula('bf', 'Black Friday', item.bf, item.bfMin ? `mín. ${real.format(item.bfMin)}` : '')}
+        ${celula('Máximo', item.max, vazio)}
+        ${celula('Mínimo', item.min, vazio)}
+        ${celulaBf(item.bf)}
       </dl>
     </li>`;
   }
@@ -311,7 +327,9 @@ footer p { margin: 0; max-width: 70ch; }
   fetch('precos.json', { cache: 'no-cache' })
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then((dados) => {
-      itens = dados.itens.map((i) => ({ ...i, busca: norma(`${i.n} ${i.e}`) }));
+      itens = dados.itens.map((i) => ({
+        ...i, busca: norma([i.n, i.e, ...(i.bf || []).map((o) => o.como || '')].join(' ')),
+      }));
       const data = new Date(`${dados.atualizado}T12:00:00`).toLocaleDateString('pt-BR');
       $('meta').textContent = `Royal Face Santos · ${itens.length} itens · atualizada em ${data}`;
       $('fonte').textContent = `Fonte: ${dados.fonte}, em ${data}. Preços por sessão.`;
