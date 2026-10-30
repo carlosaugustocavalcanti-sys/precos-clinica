@@ -1,36 +1,33 @@
 # Tabela de preços — Royal Face Santos
 
-Página de consulta: digita o produto ou procedimento e aparecem o preço máximo, o mínimo e o
-de Black Friday.
+Página de consulta: digita o produto ou procedimento e aparecem o preço máximo, o valor em até 10x
+e o preço no PIX. O botão "Só Black Friday" filtra os itens da campanha e mostra também o preço
+de Black Friday (os combos só aparecem com ele ligado).
 
 Link: https://carlosaugustocavalcanti-sys.github.io/precos-clinica/
 
 Dá para mandar o link já com a busca feita, por exemplo
 `https://carlosaugustocavalcanti-sys.github.io/precos-clinica/?q=botox%20testa`
-(com `&bf=1` mostra só o que tem preço de Black Friday).
+(com `&bf=1` abre direto no modo Black Friday).
 
 ## De onde vêm os preços
 
-`dados/clinicorp.json` é a leitura, linha a linha, das tabelas de preço do Clinicorp
-(Configurações → Procedimentos → Tabelas de preço), com a data e hora da leitura em `lidoEm`.
+`dados/precos.xlsx` é a planilha da clínica, com uma aba e estas colunas:
 
-| Tabela no Clinicorp | Vira na página |
+| Coluna | O que é |
 |---|---|
-| 1 - TABELA MAXIMA (NOVA) | Máximo ("Vl Sessão") e Mínimo ("Valor mínimo da Sessão") |
-| BLACK FRIDAY 2026 | Black Friday ("Vl Sessão") e o mínimo dela, quando é diferente |
-| 3 - TABELA HOME CARE | Produtos de revenda, só com o preço cheio |
-
-Cada linha da Black Friday é ligada ao item da Tabela Máxima de mesmo nome. Quando o nome é diferente
-(ex.: "SCULPTRA - BIOESTIMULADOR FACIAL / CORPORAL", "03 FIOS FILLER", "HARMONYCA (1 seringa)"), a
-ligação está escrita em `LIGACOES` dentro de `scripts/gerar_dados.py`, e a página mostra o nome usado
-na Black Friday embaixo do item. Só os 10 combos existem apenas na Black Friday.
+| Preço máximo (R$) | "Vl Sessão" da "1 - TABELA MAXIMA (NOVA)" do Clinicorp |
+| ATE 10X | Valor total em até 10x (fórmula: PIX + 12%, taxa na célula H1) |
+| PIX | "Valor mínimo da Sessão" da Tabela Máxima do Clinicorp |
+| Preço Black Friday (R$) | Tabela "BLACK FRIDAY 2026" do Clinicorp |
+| Observação | Nome usado na Black Friday quando é diferente, ou os dois preços do Harmonyca |
 
 ## Atualizar os preços
 
-1. Leia de novo as tabelas no Clinicorp e grave em `dados/clinicorp.json` (mesmo formato).
-2. `python3 scripts/gerar_dados.py`. O script para com erro se alguma linha da Black Friday ficar
-   sem item ou se algum preço da página não bater com o Clinicorp.
-3. Commit e push na `main`: o workflow `.github/workflows/pages.yml` roda a mesma conferência e
-   publica a pasta `site/`.
+1. Edite a planilha no Excel (mesmas colunas, mesma ordem) e salve como `dados/precos.xlsx`.
+2. `python3 scripts/gerar_dados.py` (precisa de `openpyxl`). O script para com erro se a planilha
+   mudar de formato, se tiver item repetido ou item sem preço.
+3. Commit e push na `main`: o workflow `.github/workflows/pages.yml` confere a página contra a
+   planilha e publica a pasta `site/`.
 
 Para ver no computador: `python3 -m http.server 4300 --directory site` e abra http://localhost:4300.
