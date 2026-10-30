@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1c1c1c">
+<title>Tabela de preços</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231c1c1c'/%3E%3Crect x='6' y='17' width='20' height='8' fill='%23f2b300'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800;900&display=swap" rel="stylesheet">
+<style>
+/*
+ * Marca Carlos Cavalcanti: preto no topo, cinza-gelo no conteúdo, amarelo só como marca-texto
+ * (fundo amarelo, texto preto) ou como texto sobre preto. Hanken Grotesk em tudo.
+ * Uso real: celular no balcão ou na sala, consulta rápida de um item.
+ */
+:root {
+  --yellow: #f2b300;
+  --black: #1c1c1c;
+  --ice: #f2f2f0;
+  --line: #e2e2df;
+  --gray: #5c5c5c;
+  --white: #ffffff;
+  --on-black-muted: rgba(255, 255, 255, 0.65);
+  --f: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --gutter: max(16px, env(safe-area-inset-left, 0px));
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  color-scheme: light;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--ice);
+  color: var(--black);
+  font-family: var(--f);
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-variant-numeric: tabular-nums;
+  caret-color: var(--black);
+  -webkit-font-smoothing: antialiased;
+}
+::selection { background: var(--yellow); color: var(--black); }
+.wrap { max-width: 980px; margin: 0 auto; padding-inline: var(--gutter); }
+
+/* Topo */
+.top { background: var(--black); color: var(--white); padding-top: max(28px, env(safe-area-inset-top)); }
+.top h1 {
+  margin: 0;
+  font-weight: 900;
+  font-size: clamp(2.25rem, 9vw, 4.5rem);
+  line-height: 0.92;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+.top h1 span { color: var(--yellow); }
+.meta { margin: 12px 0 0; color: var(--on-black-muted); font-size: 0.9375rem; }
+
+/* Busca fixa */
+.busca {
+  position: sticky; top: 0; z-index: 2;
+  background: var(--black);
+  padding-block: 20px 16px;
+}
+.campo { position: relative; }
+.campo svg {
+  position: absolute; left: 18px; top: 50%; translate: 0 -50%;
+  width: 22px; height: 22px; stroke: var(--gray); pointer-events: none;
+}
+#q {
+  width: 100%;
+  height: 60px;
+  border: 0;
+  border-radius: 14px;
+  padding: 0 52px 0 52px;
+  font: 700 1.125rem/1 var(--f);
+  color: var(--black);
+  background: var(--white);
+  -webkit-appearance: none;
+  appearance: none;
+}
+#q::placeholder { color: var(--gray); font-weight: 500; }
+#q:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+#q::-webkit-search-cancel-button { display: none; }
+.limpar {
+  position: absolute; right: 8px; top: 50%; translate: 0 -50%;
+  width: 44px; height: 44px;
+  display: grid; place-items: center;
+  border: 0; border-radius: 10px;
+  background: transparent; cursor: pointer;
+}
+.limpar svg { width: 20px; height: 20px; stroke: var(--black); }
+.limpar:hover { background: var(--line); }
+.limpar:focus-visible { outline: 2px solid var(--black); outline-offset: -2px; }
+.limpar[hidden] { display: none; }
+
+.barra { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 14px; }
+#contagem { color: var(--on-black-muted); font-size: 0.9375rem; }
+#contagem strong { color: var(--white); font-weight: 800; }
+.filtro {
+  display: inline-flex; align-items: center; gap: 8px;
+  min-height: 40px; padding: 0 14px;
+  border: 1.5px solid var(--on-black-muted); border-radius: 6px;
+  background: transparent; color: var(--white);
+  font: 800 0.75rem/1 var(--f); letter-spacing: 0.12em; text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.2s var(--ease), color 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+.filtro:hover { border-color: var(--white); }
+.filtro[aria-pressed='true'] { background: var(--yellow); border-color: var(--yellow); color: var(--black); }
+.filtro:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+.filtro svg { width: 14px; height: 14px; stroke: currentColor; }
+
+/* Lista */
+main { padding-block: 24px 40px; }
+#lista { list-style: none; margin: 0; padding: 0; background: var(--white); border-radius: 24px; overflow: hidden; }
+#lista:empty { display: none; }
+.item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px 24px;
+  align-items: center;
+  padding: 18px 24px;
+  border-top: 1px solid var(--line);
+}
+.item:first-child { border-top: 0; }
+.nome { margin: 0; font-weight: 800; font-size: 1rem; line-height: 1.25; overflow-wrap: anywhere; }
+.nome mark { background: var(--yellow); color: var(--black); padding: 0 0.12em; border-radius: 2px; }
+.tag {
+  display: inline-block; margin-top: 8px; padding: 4px 8px;
+  border-radius: 6px; background: var(--line); color: var(--black);
+  font-weight: 800; font-size: 0.6875rem; letter-spacing: 0.12em; text-transform: uppercase;
+}
+.precos { display: grid; grid-template-columns: repeat(3, 8.5rem); gap: 8px; margin: 0; }
+.preco { margin: 0; padding: 10px 12px; border-radius: 10px; background: var(--ice); }
+.preco dt {
+  font-weight: 800; font-size: 0.6875rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gray);
+}
+.preco dd { margin: 4px 0 0; font-weight: 800; font-size: 1.125rem; letter-spacing: -0.01em; white-space: nowrap; }
+.preco .sub { display: block; margin-top: 2px; font-weight: 700; font-size: 0.75rem; letter-spacing: 0; }
+.preco.vazio dd { color: var(--gray); font-weight: 500; font-size: 0.875rem; padding-block: 3px; }
+.preco.bf { background: var(--black); }
+.preco.bf dt, .preco.bf .sub { color: var(--on-black-muted); }
+.preco.bf dd { color: var(--yellow); }
+.preco.bf.vazio { background: var(--ice); }
+.preco.bf.vazio dt { color: var(--gray); }
+.preco.bf.vazio dd { color: var(--gray); }
+
+.aviso { background: var(--white); border-radius: 24px; padding: 32px 24px; }
+.aviso h2 { margin: 0; font-weight: 900; font-size: 1.5rem; letter-spacing: -0.03em; text-transform: uppercase; }
+.aviso p { margin: 8px 0 0; color: var(--gray); max-width: 52ch; }
+.aviso button {
+  margin-top: 20px; min-height: 44px; padding: 0 20px;
+  border: 0; border-radius: 10px; background: var(--yellow); color: var(--black);
+  font: 800 0.9375rem/1 var(--f); cursor: pointer;
+}
+.aviso button:focus-visible { outline: 2px solid var(--black); outline-offset: 2px; }
+
+footer { padding-block: 8px 48px; color: var(--gray); font-size: 0.875rem; }
+footer p { margin: 0; max-width: 70ch; }
+.assinatura { margin-top: 28px; }
+.assinatura strong { display: block; color: var(--black); font-weight: 900; font-size: 1.375rem; letter-spacing: -0.03em; }
+.assinatura span { font-weight: 800; letter-spacing: 0.04em; }
+
+@media (max-width: 760px) {
+  .item { grid-template-columns: minmax(0, 1fr); padding: 16px; }
+  .precos { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+  .preco { padding: 9px 10px; }
+  .preco dt { font-size: 0.625rem; letter-spacing: 0.08em; }
+  .preco dd { font-size: 1rem; }
+  #lista, .aviso { border-radius: 20px; }
+}
+@media (max-width: 380px) {
+  .preco dd { font-size: 0.9375rem; letter-spacing: -0.02em; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>Tabela de <span>preços</span></h1>
+    <p class="meta" id="meta">Royal Face Santos</p>
+  </div>
+  <div class="busca">
+    <div class="wrap">
+      <div class="campo">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2.25" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" inputmode="search" autocomplete="off" spellcheck="false"
+               placeholder="Digite o produto, ex.: botox testa" aria-label="Buscar produto ou procedimento" aria-controls="lista">
+        <button class="limpar" id="limpar" type="button" aria-label="Limpar busca" hidden>
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2.25" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+      <div class="barra">
+        <span id="contagem" aria-live="polite">Carregando a tabela…</span>
+        <button class="filtro" id="soBf" type="button" aria-pressed="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>
+          Só Black Friday
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <ul id="lista"></ul>
+  <div class="aviso" id="aviso" hidden></div>
+</main>
+
+<footer class="wrap">
+  <p id="fonte">Fonte: Clinicorp.</p>
+  <p class="assinatura"><strong>Carlos Cavalcanti</strong><span>@carlos_cavalcanti_imoveis_</span></p>
+</footer>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const q = $('q'), lista = $('lista'), aviso = $('aviso'), contagem = $('contagem'), soBf = $('soBf'), limpar = $('limpar');
+  const real = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' });
+  const norma = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[–—]/g, '-').toLowerCase();
+  const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+  let itens = [];
+
+  // Marca os trechos encontrados sem perder os acentos do nome original
+  // (a versão normalizada tem o mesmo número de letras do nome).
+  function destacar(nome, termos) {
+    const n = norma(nome);
+    const marcas = new Array(nome.length).fill(false);
+    for (const t of termos) {
+      let i = n.indexOf(t);
+      while (i !== -1) { for (let k = i; k < i + t.length; k++) marcas[k] = true; i = n.indexOf(t, i + t.length); }
+    }
+    let html = '', aberto = false;
+    for (let k = 0; k < nome.length; k++) {
+      if (marcas[k] && !aberto) { html += '<mark>'; aberto = true; }
+      if (!marcas[k] && aberto) { html += '</mark>'; aberto = false; }
+      html += esc(nome[k]);
+    }
+    return html + (aberto ? '</mark>' : '');
+  }
+
+  function celula(classe, rotulo, valor, sub) {
+    if (valor == null) {
+      return `<div class="preco ${classe} vazio"><dt>${rotulo}</dt><dd>Sem preço</dd></div>`;
+    }
+    return `<div class="preco ${classe}"><dt>${rotulo}</dt><dd>${real.format(valor)}${sub ? `<span class="sub">${sub}</span>` : ''}</dd></div>`;
+  }
+
+  function linha(item, termos) {
+    return `<li class="item">
+      <div><p class="nome">${destacar(item.n, termos)}</p>${item.e ? `<span class="tag">${esc(item.e)}</span>` : ''}</div>
+      <dl class="precos">
+        ${celula('', 'Máximo', item.max)}
+        ${celula('', 'Mínimo', item.min)}
+        ${celula('bf', 'Black Friday', item.bf, item.bfMin ? `mín. ${real.format(item.bfMin)}` : '')}
+      </dl>
+    </li>`;
+  }
+
+  function mostrarAviso(titulo, texto, acao) {
+    aviso.innerHTML = `<h2>${titulo}</h2><p>${texto}</p>${acao ? `<button type="button">${acao.rotulo}</button>` : ''}`;
+    if (acao) aviso.querySelector('button').addEventListener('click', acao.fazer);
+    aviso.hidden = false;
+  }
+
+  function filtrar() {
+    const texto = q.value.trim();
+    const termos = norma(texto).split(/\s+/).filter(Boolean);
+    const bf = soBf.getAttribute('aria-pressed') === 'true';
+    const achados = itens.filter((i) => (!bf || i.bf != null) && termos.every((t) => i.busca.includes(t)));
+
+    limpar.hidden = !texto;
+    lista.innerHTML = achados.map((i) => linha(i, termos)).join('');
+    aviso.hidden = true;
+    const n = achados.length;
+    contagem.innerHTML = `<strong>${n}</strong> ${n === 1 ? 'item' : 'itens'}${bf ? ' com Black Friday' : ''}`;
+
+    if (!n) {
+      const onde = bf ? ' na Black Friday' : '';
+      mostrarAviso(
+        'Nada encontrado',
+        `Nenhum item com “${esc(texto)}”${onde}. Busque por uma parte do nome, como “botox”, “fios” ou “malar”.`,
+        bf ? { rotulo: 'Ver todos os itens', fazer: () => { soBf.setAttribute('aria-pressed', 'false'); filtrar(); } }
+           : { rotulo: 'Limpar busca', fazer: () => { q.value = ''; filtrar(); q.focus(); } }
+      );
+    }
+
+    // Guarda a busca no endereço para dar para mandar o link já filtrado.
+    const url = new URL(location.href);
+    texto ? url.searchParams.set('q', texto) : url.searchParams.delete('q');
+    bf ? url.searchParams.set('bf', '1') : url.searchParams.delete('bf');
+    history.replaceState(null, '', url);
+  }
+
+  q.addEventListener('input', filtrar);
+  limpar.addEventListener('click', () => { q.value = ''; filtrar(); q.focus(); });
+  soBf.addEventListener('click', () => {
+    soBf.setAttribute('aria-pressed', soBf.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
+    filtrar();
+  });
+
+  const params = new URLSearchParams(location.search);
+  q.value = params.get('q') || '';
+  if (params.get('bf') === '1') soBf.setAttribute('aria-pressed', 'true');
+
+  fetch('precos.json', { cache: 'no-cache' })
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then((dados) => {
+      itens = dados.itens.map((i) => ({ ...i, busca: norma(`${i.n} ${i.e}`) }));
+      const data = new Date(`${dados.atualizado}T12:00:00`).toLocaleDateString('pt-BR');
+      $('meta').textContent = `Royal Face Santos · ${itens.length} itens · atualizada em ${data}`;
+      $('fonte').textContent = `Fonte: ${dados.fonte}, em ${data}. Preços por sessão.`;
+      filtrar();
+    })
+    .catch(() => {
+      contagem.textContent = 'Tabela não carregada';
+      mostrarAviso('Não deu para carregar', 'A tabela de preços não abriu. Confira a internet e recarregue a página.',
+        { rotulo: 'Recarregar', fazer: () => location.reload() });
+    });
+})();
+</script>
+</body>
+</html>
