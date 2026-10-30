@@ -17,7 +17,7 @@ Dá para mandar o link já com a busca feita, por exemplo
 | Coluna | O que é |
 |---|---|
 | Preço máximo (R$) | "Vl Sessão" da "1 - TABELA MAXIMA (NOVA)" do Clinicorp |
-| ATE 10X | Valor total em até 10x (fórmula: PIX + 12%, taxa na célula H1) |
+| ATE 10X | Valor total em até 10x (fórmula: PIX + 12%, taxa na célula H1). Quando passa do preço máximo, a página mostra o preço máximo |
 | PIX | "Valor mínimo da Sessão" da Tabela Máxima do Clinicorp |
 | Preço Black Friday (R$) | Tabela "BLACK FRIDAY 2026" do Clinicorp |
 | Observação | Nome usado na Black Friday quando é diferente, ou os dois preços do Harmonyca |

@@ -7,7 +7,8 @@ Uso:
 
 A planilha tem uma aba com as colunas, nesta ordem:
   Procedimento | Especialidade | Preço máximo | ATE 10X | PIX | Preço Black Friday | Observação
-"ATE 10X" costuma ser fórmula (PIX + 12%); vale o valor calculado que o Excel salvou no arquivo.
+"ATE 10X" costuma ser fórmula (PIX + 12%); vale o valor calculado que o Excel salvou no arquivo,
+limitado ao preço máximo quando passa dele.
 Combos têm só o preço Black Friday.
 """
 import json
@@ -47,6 +48,9 @@ def ler():
         # Sem PIX (combos) a fórmula do 10x dá zero: não há preço parcelado.
         item = {'n': str(nome).strip(), 'e': (esp or '').strip(), 'max': valor(maximo),
                 'x10': valor(dez) if pix is not None else None, 'pix': valor(pix)}
+        # Regra da clínica: o parcelado nunca passa do preço máximo.
+        if item['x10'] is not None and item['max'] is not None and item['x10'] > item['max']:
+            item['x10'] = item['max']
         if valor(bf) is not None:
             item['bf'] = valor(bf)
         if obs:
