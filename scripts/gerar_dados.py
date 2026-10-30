@@ -12,6 +12,7 @@ limitado ao preço máximo quando passa dele.
 Combos têm só o preço Black Friday.
 """
 import json
+import re
 import sys
 import unicodedata
 from datetime import date
@@ -34,8 +35,27 @@ def valor(v):
     return None if v is None or v == '' else round(float(v), 2)
 
 
+def calcular_10x(formulas, valores):
+    """Valores da coluna ATE 10X. Quando a planilha foi salva fora do Excel a fórmula vem sem o
+    valor calculado; aí a fórmula padrão (=E2+E2*$H$1) é calculada aqui."""
+    taxa = formulas['H1'].value
+    saida = {}
+    for f, v in zip(formulas['D'][1:], valores['D'][1:]):
+        if v.value is None and isinstance(f.value, str):
+            m = re.fullmatch(r'=E(\d+)\+E\1\*\$H\$1', f.value.replace(' ', ''))
+            if not m:
+                sys.exit(f'D{f.row}: fórmula diferente da padrão ({f.value}); abra e salve no Excel')
+            pix = formulas[f'E{m.group(1)}'].value
+            saida[f.row] = None if pix is None else pix + pix * taxa
+        else:
+            saida[f.row] = v.value
+    return saida
+
+
 def ler():
-    aba = load_workbook(ORIGEM, data_only=True, read_only=True).worksheets[0]
+    formulas = load_workbook(ORIGEM).worksheets[0]
+    aba = load_workbook(ORIGEM, data_only=True).worksheets[0]
+    dez_calculado = calcular_10x(formulas, aba)
     linhas = aba.iter_rows(values_only=True)
     cabecalho = [str(c).strip() if c is not None else '' for c in next(linhas)][:len(COLUNAS)]
     if cabecalho != COLUNAS:
@@ -43,6 +63,7 @@ def ler():
     itens, erros = [], []
     for n, linha in enumerate(linhas, start=2):
         nome, esp, maximo, dez, pix, bf, obs = (list(linha) + [None] * 7)[:7]
+        dez = dez_calculado[n]
         if not nome:
             continue
         # Sem PIX (combos) a fórmula do 10x dá zero: não há preço parcelado.
@@ -58,7 +79,7 @@ def ler():
         if item['max'] is None and 'bf' not in item:
             erros.append(f'linha {n}: {nome} sem preço máximo e sem Black Friday')
         if pix is not None and dez is None:
-            erros.append(f'linha {n}: {nome} tem PIX mas a coluna ATE 10X está vazia (abra e salve no Excel)')
+            erros.append(f'linha {n}: {nome} tem PIX mas a coluna ATE 10X está vazia')
         itens.append(item)
     repetidos = {i['n'] for i in itens if sum(chave(j['n']) == chave(i['n']) for j in itens) > 1}
     if repetidos:
