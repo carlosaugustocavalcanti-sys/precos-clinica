@@ -1,0 +1,28 @@
+{
+  "fonte": "Tabela impressa de Black Friday da clínica (foto em dados/black-friday-2026.jpg)",
+  "itens": [
+    { "n": "BOTOX", "grupo": "Toxina", "nota": "Ganha 4ª região", "dinheiro": 699.00, "pix": 750.00, "parcela": 79.90 },
+    { "n": "DYSPORT", "grupo": "Toxina", "nota": "Ganha 4ª região", "dinheiro": 799.00, "pix": 850.00, "parcela": 89.90 },
+    { "n": "PREENCHIMENTO", "grupo": "Preenchimento", "inclui": ["Bigode, marionete, olheira, labial, código"], "dinheiro": 649.00, "pix": 699.00, "parcela": 74.90 },
+    { "n": "QUEIXO", "dinheiro": 799.00, "pix": 820.00, "parcela": 98.90 },
+    { "n": "MANDÍBULA", "dinheiro": 799.00, "pix": 820.00, "parcela": 98.90 },
+    { "n": "MALAR", "dinheiro": 799.00, "pix": 820.00, "parcela": 98.90 },
+    { "n": "COMBO IMBATÍVEL", "grupo": "Combo", "inclui": ["Botox + 1 ml", "1 limpeza de pele profunda", "1 radiofrequência", "1 ácido retinoico", "1 LED terapia", "1 drenagem facial"], "dinheiro": 1399.00, "pix": 1399.00, "parcela": 149.90 },
+    { "n": "PAR PERFEITO", "grupo": "Combo", "inclui": ["Sculptra + Dysport 4 regiões"], "nota": "Ganha cashback de R$ 400 em procedimentos", "dinheiro": 2600.00, "pix": 2700.00, "parcela": 279.90 },
+    { "n": "CELULITE OFF", "grupo": "Combo", "inclui": ["5 radiofrequência", "5 drenagem", "5 carbox"], "dinheiro": 699.00, "pix": 699.00, "parcela": 69.90 },
+    { "n": "PELE DOS SONHOS", "grupo": "Combo", "inclui": ["2 microagulhamento", "3 sessões de ácido retinoico", "3 LED terapia"], "dinheiro": 599.00, "pix": 699.00, "parcela": 69.90 },
+    { "n": "PAPADA", "grupo": "Combo", "inclui": ["5 sessões de lipo", "5 radiofrequência"], "dinheiro": 900.00, "pix": 950.00, "parcela": 100.00 },
+    { "n": "ROYAL LIFTING", "grupo": "Combo", "inclui": ["10 fio garra", "Rennova Diamond"], "nota": "De R$ 5.800", "dinheiro": 3170.00, "pix": 3200.00, "parcela": 337.00 },
+    { "n": "VASINHOS - 1 SESSÃO", "grupo": "Vasinhos", "dinheiro": 180.00, "pix": 199.00, "parcela": 199.00 },
+    { "n": "VASINHOS - 6 SESSÕES", "grupo": "Vasinhos", "dinheiro": 720.00, "pix": 800.00, "parcela": 90.00 },
+    { "n": "FIO DE GARRA - 8 FIOS", "grupo": "Fios", "dinheiro": 1736.00, "pix": 1790.00, "parcela": 203.39 },
+    { "n": "FIO DE GARRA - 10 FIOS", "grupo": "Fios", "dinheiro": 2170.00, "pix": 2237.50, "parcela": 254.24 },
+    { "n": "FIO DE GARRA - 12 FIOS", "grupo": "Fios", "dinheiro": 2604.00, "pix": 2685.00, "parcela": 305.08 },
+    { "n": "2 FIOS FILLER", "grupo": "Fios", "dinheiro": 800.00, "pix": 850.00, "parcela": 90.00 },
+    { "n": "10 FIOS LISOS", "grupo": "Fios", "dinheiro": 900.00, "pix": 950.00, "parcela": 100.00 },
+    { "n": "RENNOVA DIAMOND", "grupo": "Bioestimuladores", "dinheiro": 1200.00, "pix": 1250.00, "parcela": 140.00 },
+    { "n": "SCULPTRA", "grupo": "Bioestimuladores", "dinheiro": 1729.00, "pix": 1790.00, "parcela": 199.00 },
+    { "n": "RADIESSE", "grupo": "Bioestimuladores", "dinheiro": 1699.00, "pix": 1750.00, "parcela": 180.00 },
+    { "n": "ELLEVA", "grupo": "Bioestimuladores", "dinheiro": 1800.00, "pix": 1850.00, "parcela": 190.00 }
+  ]
+}

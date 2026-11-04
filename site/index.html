@@ -24,6 +24,8 @@
   --gray: #5c5c5c;
   --white: #ffffff;
   --on-black-muted: rgba(255, 255, 255, 0.65);
+  --on-black-cell: rgba(255, 255, 255, 0.08);
+  --on-black-line: rgba(255, 255, 255, 0.14);
   --f: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --gutter: max(16px, env(safe-area-inset-left, 0px));
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
@@ -130,6 +132,28 @@ main { padding-block: 24px 40px; }
 .preco dd { margin: 4px 0 0; font-weight: 800; font-size: 1.125rem; letter-spacing: -0.01em; white-space: nowrap; }
 .preco.vazio dd { color: var(--gray); font-weight: 500; font-size: 0.875rem; padding-block: 3px; white-space: normal; line-height: 1.2; }
 
+/* Black Friday: painel preto acima da tabela, preços em amarelo */
+.secao {
+  margin: 0 0 12px; font-weight: 900; font-size: 1.5rem; line-height: 1;
+  letter-spacing: -0.03em; text-transform: uppercase;
+}
+.secao[hidden] { display: none; }
+.bf { background: var(--black); color: var(--white); border-radius: 24px; padding: 24px 24px 8px; margin-bottom: 32px; }
+.bf[hidden] { display: none; }
+.bf .secao { font-size: clamp(1.75rem, 6vw, 2.5rem); }
+.bf .secao span { color: var(--yellow); }
+.bf-sub { margin: 0; color: var(--on-black-muted); font-size: 0.9375rem; }
+#bf-lista { list-style: none; margin: 16px 0 0; padding: 0; }
+.bf .item { border-top-color: var(--on-black-line); padding-inline: 0; }
+.bf .item:first-child { border-top: 1px solid var(--on-black-line); }
+.bf .nome mark { background: var(--yellow); color: var(--black); }
+.inclui { margin: 6px 0 0; color: var(--on-black-muted); font-size: 0.9375rem; line-height: 1.35; }
+.inclui mark { background: transparent; color: var(--white); font-weight: 800; }
+.nota { margin: 6px 0 0; color: var(--yellow); font-weight: 800; font-size: 0.9375rem; }
+.bf .preco { background: var(--on-black-cell); }
+.bf .preco dt { color: var(--on-black-muted); }
+.bf .preco dd { color: var(--yellow); }
+
 .aviso { background: var(--white); border-radius: 24px; padding: 32px 24px; }
 .aviso h2 { margin: 0; font-weight: 900; font-size: 1.5rem; letter-spacing: -0.03em; text-transform: uppercase; }
 .aviso p { margin: 8px 0 0; color: var(--gray); max-width: 52ch; }
@@ -152,7 +176,9 @@ footer p { margin: 0; max-width: 70ch; }
   .preco { padding: 9px 10px; }
   .preco dt { font-size: 0.625rem; letter-spacing: 0.08em; }
   .preco dd { font-size: 1rem; }
-  #lista, .aviso { border-radius: 20px; }
+  #lista, .aviso, .bf { border-radius: 20px; }
+  .bf { padding: 20px 16px 4px; }
+  .bf .item { padding-inline: 0; }
 }
 @media (max-width: 380px) {
   .preco dd { font-size: 0.9375rem; letter-spacing: -0.02em; }
@@ -184,6 +210,12 @@ footer p { margin: 0; max-width: 70ch; }
 </header>
 
 <main class="wrap">
+  <section class="bf" id="bf" aria-labelledby="bf-titulo" hidden>
+    <h2 class="secao" id="bf-titulo">Black <span>Friday</span></h2>
+    <p class="bf-sub">Preços da campanha. Na coluna “10x de” vai o valor de cada parcela.</p>
+    <ul id="bf-lista"></ul>
+  </section>
+  <h2 class="secao" id="tabela-titulo" hidden>Tabela</h2>
   <ul id="lista"></ul>
   <div class="aviso" id="aviso" hidden></div>
 </main>
@@ -197,10 +229,11 @@ footer p { margin: 0; max-width: 70ch; }
 (() => {
   const $ = (id) => document.getElementById(id);
   const q = $('q'), lista = $('lista'), aviso = $('aviso'), contagem = $('contagem'), limpar = $('limpar');
+  const bf = $('bf'), bfLista = $('bf-lista'), tabelaTitulo = $('tabela-titulo');
   const real = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' });
   const norma = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[–—]/g, '-').toLowerCase();
   const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
-  let itens = [];
+  let itens = [], promocoes = [];
 
   // Marca os trechos encontrados sem perder os acentos do nome original
   // (a versão normalizada tem o mesmo número de letras do nome).
@@ -237,6 +270,21 @@ footer p { margin: 0; max-width: 70ch; }
     </li>`;
   }
 
+  // Item da Black Friday: mesma ordem de colunas da tabela (10x, PIX, dinheiro);
+  // no 10x vai o valor de cada parcela, como na tabela impressa.
+  function linhaBf(item, termos) {
+    const inclui = item.inclui ? `<p class="inclui">Inclui: ${destacar(item.inclui.join(' · '), termos)}</p>` : '';
+    const nota = item.nota ? `<p class="nota">${destacar(item.nota, termos)}</p>` : '';
+    return `<li class="item">
+      <div><p class="nome">${destacar(item.n, termos)}</p>${inclui}${nota}${item.grupo ? `<span class="tag">${esc(item.grupo)}</span>` : ''}</div>
+      <dl class="precos">
+        ${celula('10x de', item.parcela)}
+        ${celula('PIX', item.pix)}
+        ${celula('Dinheiro', item.dinheiro)}
+      </dl>
+    </li>`;
+  }
+
   function mostrarAviso(titulo, texto, acao) {
     aviso.innerHTML = `<h2>${titulo}</h2><p>${texto}</p>${acao ? `<button type="button">${acao.rotulo}</button>` : ''}`;
     if (acao) aviso.querySelector('button').addEventListener('click', acao.fazer);
@@ -246,16 +294,23 @@ footer p { margin: 0; max-width: 70ch; }
   function filtrar() {
     const texto = q.value.trim();
     const termos = norma(texto).split(/\s+/).filter(Boolean);
-    // Combos só têm preço de Black Friday, que não aparece mais na página: ficam de fora.
+    // Itens da planilha sem preço máximo (os combos antigos) ficam fora da tabela; os combos da campanha estão na seção Black Friday.
     const achados = itens.filter((i) => i.max != null && termos.every((t) => i.busca.includes(t)));
 
-    limpar.hidden = !texto;
-    lista.innerHTML = achados.map((i) => linha(i, termos)).join('');
-    aviso.hidden = true;
-    const n = achados.length;
-    contagem.innerHTML = `<strong>${n}</strong> ${n === 1 ? 'item' : 'itens'}`;
+    const promos = promocoes.filter((i) => termos.every((t) => i.busca.includes(t)));
 
-    if (!n) {
+    limpar.hidden = !texto;
+    bfLista.innerHTML = promos.map((i) => linhaBf(i, termos)).join('');
+    bf.hidden = !promos.length;
+    lista.innerHTML = achados.map((i) => linha(i, termos)).join('');
+    tabelaTitulo.hidden = !promos.length || !achados.length;
+    aviso.hidden = true;
+    const n = achados.length, b = promos.length;
+    const tabela = `<strong>${n}</strong> ${n === 1 ? 'item' : 'itens'}`;
+    const naBf = `<strong>${b}</strong> na Black Friday`;
+    contagem.innerHTML = !b ? tabela : n ? `${naBf} · ${tabela} na tabela` : naBf;
+
+    if (!n && !b) {
       mostrarAviso(
         'Nada encontrado',
         `Nenhum item com “${esc(texto)}”. Busque por uma parte do nome, como “botox”, “fios” ou “malar”.`,
@@ -282,9 +337,12 @@ footer p { margin: 0; max-width: 70ch; }
       itens = dados.itens.map((i) => ({
         ...i, busca: norma(`${i.n} ${i.e}`),
       }));
+      promocoes = (dados.blackFriday?.itens || []).map((i) => ({
+        ...i, busca: norma([i.n, i.grupo, ...(i.inclui || []), i.nota].filter(Boolean).join(' ')),
+      }));
       const data = new Date(`${dados.atualizado}T12:00:00`).toLocaleDateString('pt-BR');
       $('meta').textContent = `Royal Face Santos · ${itens.length} itens · atualizada em ${data}`;
-      $('fonte').textContent = `Fonte: ${dados.fonte}, em ${data}. Preços por sessão; "Em 10x" é o valor total parcelado.`;
+      $('fonte').textContent = `Fonte: ${dados.fonte}, em ${data}. Preços por sessão; na tabela, "Em 10x" é o valor total parcelado. Black Friday: tabela impressa da campanha, com o valor de cada parcela em "10x de".`;
       filtrar();
     })
     .catch(() => {

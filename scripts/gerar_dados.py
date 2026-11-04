@@ -10,6 +10,10 @@ A planilha tem uma aba com as colunas, nesta ordem:
 "ATE 10X" costuma ser fórmula (PIX + 12%); vale o valor calculado que o Excel salvou no arquivo,
 limitado ao preço máximo quando passa dele.
 Combos têm só o preço Black Friday.
+
+A seção Black Friday da página vem de dados/black-friday.json, digitado a partir da tabela impressa:
+cada item tem nome (n), grupo, inclui, nota e os três preços: dinheiro, pix e parcela (valor de
+cada uma das 10 parcelas).
 """
 import json
 import re
@@ -22,6 +26,7 @@ from openpyxl import load_workbook
 
 RAIZ = Path(__file__).resolve().parent.parent
 ORIGEM = RAIZ / 'dados' / 'precos.xlsx'
+BLACK_FRIDAY = RAIZ / 'dados' / 'black-friday.json'
 DESTINO = RAIZ / 'site' / 'precos.json'
 COLUNAS = ['Procedimento', 'Especialidade', 'Preço máximo (R$)', 'ATE 10X', 'PIX', 'Preço Black Friday (R$)', 'Observação']
 
@@ -89,17 +94,50 @@ def ler():
     return sorted(itens, key=lambda i: chave(i['n']))
 
 
+def ler_black_friday():
+    dados = json.loads(BLACK_FRIDAY.read_text(encoding='utf-8'))
+    saida, erros = [], []
+    for k, i in enumerate(dados['itens'], start=1):
+        nome = str(i.get('n') or '').strip()
+        if not nome:
+            erros.append(f'item {k} sem nome')
+            continue
+        item = {'n': nome}
+        for campo in ('grupo', 'nota'):
+            if i.get(campo):
+                item[campo] = str(i[campo]).strip()
+        if i.get('inclui'):
+            item['inclui'] = [str(x).strip() for x in i['inclui']]
+        for campo in ('dinheiro', 'pix', 'parcela'):
+            v = i.get(campo)
+            if not isinstance(v, (int, float)) or v <= 0:
+                erros.append(f'{nome}: preço "{campo}" vazio ou inválido ({v!r})')
+            else:
+                item[campo] = round(float(v), 2)
+        saida.append(item)
+    repetidos = {i['n'] for i in saida if sum(chave(j['n']) == chave(i['n']) for j in saida) > 1}
+    if repetidos:
+        erros.append(f'itens repetidos: {sorted(repetidos)}')
+    if erros:
+        sys.exit('Problemas em dados/black-friday.json:\n  ' + '\n  '.join(erros))
+    return {'fonte': dados['fonte'], 'itens': saida}
+
+
 if __name__ == '__main__':
     itens = ler()
+    bf = ler_black_friday()
     if '--conferir' in sys.argv:
         publicado = json.loads(DESTINO.read_text(encoding='utf-8'))
         if publicado['itens'] != itens:
             sys.exit('site/precos.json não bate com dados/precos.xlsx: rode python3 scripts/gerar_dados.py')
-        print(f'Todos os {len(itens)} itens batem com a planilha.')
+        if publicado.get('blackFriday') != bf:
+            sys.exit('site/precos.json não bate com dados/black-friday.json: rode python3 scripts/gerar_dados.py')
+        print(f'Todos os {len(itens)} itens batem com a planilha e os {len(bf["itens"])} da Black Friday também.')
     else:
         DESTINO.write_text(json.dumps({
             'atualizado': date.today().isoformat(),
             'fonte': 'Planilha de preços da clínica (base: tabelas do Clinicorp)',
             'itens': itens,
+            'blackFriday': bf,
         }, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
-        print(f'{len(itens)} itens; {sum("bf" in i for i in itens)} com Black Friday')
+        print(f'{len(itens)} itens na tabela; {len(bf["itens"])} na seção Black Friday')
