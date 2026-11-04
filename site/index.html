@@ -101,20 +101,6 @@ body {
 .barra { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 14px; }
 #contagem { color: var(--on-black-muted); font-size: 0.9375rem; }
 #contagem strong { color: var(--white); font-weight: 800; }
-.filtro {
-  display: inline-flex; align-items: center; gap: 8px;
-  min-height: 40px; padding: 0 14px;
-  border: 1.5px solid var(--on-black-muted); border-radius: 6px;
-  background: transparent; color: var(--white);
-  font: 800 0.75rem/1 var(--f); letter-spacing: 0.12em; text-transform: uppercase;
-  white-space: nowrap; flex-shrink: 0;
-  cursor: pointer;
-  transition: background-color 0.2s var(--ease), color 0.2s var(--ease), border-color 0.2s var(--ease);
-}
-.filtro:hover { border-color: var(--white); }
-.filtro[aria-pressed='true'] { background: var(--yellow); border-color: var(--yellow); color: var(--black); }
-.filtro:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
-.filtro svg { width: 14px; height: 14px; stroke: currentColor; }
 
 /* Lista */
 main { padding-block: 24px 40px; }
@@ -142,16 +128,7 @@ main { padding-block: 24px 40px; }
   font-weight: 800; font-size: 0.6875rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gray);
 }
 .preco dd { margin: 4px 0 0; font-weight: 800; font-size: 1.125rem; letter-spacing: -0.01em; white-space: nowrap; }
-.precos.com-bf { grid-template-columns: repeat(4, 8.5rem); }
-.como { margin: 4px 0 0; color: var(--gray); font-size: 0.8125rem; line-height: 1.3; overflow-wrap: anywhere; }
 .preco.vazio dd { color: var(--gray); font-weight: 500; font-size: 0.875rem; padding-block: 3px; white-space: normal; line-height: 1.2; }
-.preco .sub { white-space: normal; }
-.preco.bf { background: var(--black); }
-.preco.bf dt, .preco.bf .sub { color: var(--on-black-muted); }
-.preco.bf dd { color: var(--yellow); }
-.preco.bf.vazio { background: var(--ice); }
-.preco.bf.vazio dt { color: var(--gray); }
-.preco.bf.vazio dd { color: var(--gray); }
 
 .aviso { background: var(--white); border-radius: 24px; padding: 32px 24px; }
 .aviso h2 { margin: 0; font-weight: 900; font-size: 1.5rem; letter-spacing: -0.03em; text-transform: uppercase; }
@@ -172,7 +149,6 @@ footer p { margin: 0; max-width: 70ch; }
 @media (max-width: 760px) {
   .item { grid-template-columns: minmax(0, 1fr); padding: 16px; }
   .precos { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
-  .precos.com-bf { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .preco { padding: 9px 10px; }
   .preco dt { font-size: 0.625rem; letter-spacing: 0.08em; }
   .preco dd { font-size: 1rem; }
@@ -202,10 +178,6 @@ footer p { margin: 0; max-width: 70ch; }
       </div>
       <div class="barra">
         <span id="contagem" aria-live="polite">Carregando a tabela…</span>
-        <button class="filtro" id="soBf" type="button" aria-pressed="false">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>
-          Só Black Friday
-        </button>
       </div>
     </div>
   </div>
@@ -224,7 +196,7 @@ footer p { margin: 0; max-width: 70ch; }
 <script>
 (() => {
   const $ = (id) => document.getElementById(id);
-  const q = $('q'), lista = $('lista'), aviso = $('aviso'), contagem = $('contagem'), soBf = $('soBf'), limpar = $('limpar');
+  const q = $('q'), lista = $('lista'), aviso = $('aviso'), contagem = $('contagem'), limpar = $('limpar');
   const real = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' });
   const norma = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[–—]/g, '-').toLowerCase();
   const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
@@ -248,22 +220,19 @@ footer p { margin: 0; max-width: 70ch; }
     return html + (aberto ? '</mark>' : '');
   }
 
-  function celula(rotulo, valor, classe = '') {
-    if (valor == null) return `<div class="preco ${classe} vazio"><dt>${rotulo}</dt><dd>—</dd></div>`;
-    return `<div class="preco ${classe}"><dt>${rotulo}</dt><dd>${real.format(valor)}</dd></div>`;
+  function celula(rotulo, valor) {
+    if (valor == null) return `<div class="preco vazio"><dt>${rotulo}</dt><dd>—</dd></div>`;
+    return `<div class="preco"><dt>${rotulo}</dt><dd>${real.format(valor)}</dd></div>`;
   }
 
   // Na tela as colunas da planilha aparecem como: Máximo = "Em 10x", Até 10x = "PIX", PIX = "Dinheiro".
-  // Com "Só Black Friday" ligado entra também o preço da campanha.
-  function linha(item, termos, bf) {
-    const obs = bf && item.obs ? `<p class="como">${esc(item.obs)}</p>` : '';
+  function linha(item, termos) {
     return `<li class="item">
-      <div><p class="nome">${destacar(item.n, termos)}</p>${obs}${item.e ? `<span class="tag">${esc(item.e)}</span>` : ''}</div>
-      <dl class="precos${bf ? ' com-bf' : ''}">
+      <div><p class="nome">${destacar(item.n, termos)}</p>${item.e ? `<span class="tag">${esc(item.e)}</span>` : ''}</div>
+      <dl class="precos">
         ${celula('Em 10x', item.max)}
         ${celula('PIX', item.x10)}
         ${celula('Dinheiro', item.pix)}
-        ${bf ? celula('Black Friday', item.bf, 'bf') : ''}
       </dl>
     </li>`;
   }
@@ -277,43 +246,35 @@ footer p { margin: 0; max-width: 70ch; }
   function filtrar() {
     const texto = q.value.trim();
     const termos = norma(texto).split(/\s+/).filter(Boolean);
-    const bf = soBf.getAttribute('aria-pressed') === 'true';
-    // Combos só existem na Black Friday: aparecem apenas com o botão ligado.
-    const achados = itens.filter((i) => (bf ? i.bf != null : i.max != null) && termos.every((t) => i.busca.includes(t)));
+    // Combos só têm preço de Black Friday, que não aparece mais na página: ficam de fora.
+    const achados = itens.filter((i) => i.max != null && termos.every((t) => i.busca.includes(t)));
 
     limpar.hidden = !texto;
-    lista.innerHTML = achados.map((i) => linha(i, termos, bf)).join('');
+    lista.innerHTML = achados.map((i) => linha(i, termos)).join('');
     aviso.hidden = true;
     const n = achados.length;
-    contagem.innerHTML = `<strong>${n}</strong> ${n === 1 ? 'item' : 'itens'}${bf ? ' com Black Friday' : ''}`;
+    contagem.innerHTML = `<strong>${n}</strong> ${n === 1 ? 'item' : 'itens'}`;
 
     if (!n) {
-      const onde = bf ? ' na Black Friday' : '';
       mostrarAviso(
         'Nada encontrado',
-        `Nenhum item com “${esc(texto)}”${onde}. Busque por uma parte do nome, como “botox”, “fios” ou “malar”.`,
-        bf ? { rotulo: 'Ver todos os itens', fazer: () => { soBf.setAttribute('aria-pressed', 'false'); filtrar(); } }
-           : { rotulo: 'Limpar busca', fazer: () => { q.value = ''; filtrar(); q.focus(); } }
+        `Nenhum item com “${esc(texto)}”. Busque por uma parte do nome, como “botox”, “fios” ou “malar”.`,
+        { rotulo: 'Limpar busca', fazer: () => { q.value = ''; filtrar(); q.focus(); } }
       );
     }
 
     // Guarda a busca no endereço para dar para mandar o link já filtrado.
     const url = new URL(location.href);
     texto ? url.searchParams.set('q', texto) : url.searchParams.delete('q');
-    bf ? url.searchParams.set('bf', '1') : url.searchParams.delete('bf');
+    url.searchParams.delete('bf');
     history.replaceState(null, '', url);
   }
 
   q.addEventListener('input', filtrar);
   limpar.addEventListener('click', () => { q.value = ''; filtrar(); q.focus(); });
-  soBf.addEventListener('click', () => {
-    soBf.setAttribute('aria-pressed', soBf.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
-    filtrar();
-  });
 
   const params = new URLSearchParams(location.search);
   q.value = params.get('q') || '';
-  if (params.get('bf') === '1') soBf.setAttribute('aria-pressed', 'true');
 
   fetch('precos.json', { cache: 'no-cache' })
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })

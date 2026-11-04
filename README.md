@@ -2,14 +2,13 @@
 
 Página de consulta: digita o produto ou procedimento e aparecem o preço em 10x, no PIX e em
 dinheiro. Na página, a coluna "Preço máximo" da planilha aparece como "Em 10x", a "ATE 10X" como
-"PIX" e a "PIX" como "Dinheiro". O botão "Só Black Friday" filtra os itens da campanha e mostra também o preço
-de Black Friday (os combos só aparecem com ele ligado).
+"PIX" e a "PIX" como "Dinheiro". O preço de Black Friday fica na planilha, mas não aparece na
+página (os combos, que só têm esse preço, também não).
 
 Link: https://carlosaugustocavalcanti-sys.github.io/precos-clinica/
 
 Dá para mandar o link já com a busca feita, por exemplo
-`https://carlosaugustocavalcanti-sys.github.io/precos-clinica/?q=botox%20testa`
-(com `&bf=1` abre direto no modo Black Friday).
+`https://carlosaugustocavalcanti-sys.github.io/precos-clinica/?q=botox%20testa`.
 
 ## De onde vêm os preços
 
