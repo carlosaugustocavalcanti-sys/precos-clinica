@@ -1,7 +1,8 @@
 # Tabela de preços — Royal Face Santos
 
-Página de consulta: digita o produto ou procedimento e aparecem o preço máximo, o valor em até 10x
-e o preço no PIX. O botão "Só Black Friday" filtra os itens da campanha e mostra também o preço
+Página de consulta: digita o produto ou procedimento e aparecem o preço em 10x, no PIX e em
+dinheiro. Na página, a coluna "Preço máximo" da planilha aparece como "Em 10x", a "ATE 10X" como
+"PIX" e a "PIX" como "Dinheiro". O botão "Só Black Friday" filtra os itens da campanha e mostra também o preço
 de Black Friday (os combos só aparecem com ele ligado).
 
 Link: https://carlosaugustocavalcanti-sys.github.io/precos-clinica/

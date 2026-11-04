@@ -253,15 +253,16 @@ footer p { margin: 0; max-width: 70ch; }
     return `<div class="preco ${classe}"><dt>${rotulo}</dt><dd>${real.format(valor)}</dd></div>`;
   }
 
-  // Normal: máximo, até 10x e PIX. Com "Só Black Friday" ligado entra também o preço da campanha.
+  // Na tela as colunas da planilha aparecem como: Máximo = "Em 10x", Até 10x = "PIX", PIX = "Dinheiro".
+  // Com "Só Black Friday" ligado entra também o preço da campanha.
   function linha(item, termos, bf) {
     const obs = bf && item.obs ? `<p class="como">${esc(item.obs)}</p>` : '';
     return `<li class="item">
       <div><p class="nome">${destacar(item.n, termos)}</p>${obs}${item.e ? `<span class="tag">${esc(item.e)}</span>` : ''}</div>
       <dl class="precos${bf ? ' com-bf' : ''}">
-        ${celula('Máximo', item.max)}
-        ${celula('Até 10x', item.x10)}
-        ${celula('PIX', item.pix)}
+        ${celula('Em 10x', item.max)}
+        ${celula('PIX', item.x10)}
+        ${celula('Dinheiro', item.pix)}
         ${bf ? celula('Black Friday', item.bf, 'bf') : ''}
       </dl>
     </li>`;
@@ -322,7 +323,7 @@ footer p { margin: 0; max-width: 70ch; }
       }));
       const data = new Date(`${dados.atualizado}T12:00:00`).toLocaleDateString('pt-BR');
       $('meta').textContent = `Royal Face Santos · ${itens.length} itens · atualizada em ${data}`;
-      $('fonte').textContent = `Fonte: ${dados.fonte}, em ${data}. Preços por sessão; "Até 10x" é o valor total parcelado.`;
+      $('fonte').textContent = `Fonte: ${dados.fonte}, em ${data}. Preços por sessão; "Em 10x" é o valor total parcelado.`;
       filtrar();
     })
     .catch(() => {
